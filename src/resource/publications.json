@@ -1,0 +1,692 @@
+[
+  {
+    "Authors": "Zhou, Xiangxian; Lu, TB; Cui, Xiang; Zhen, YZ; Luo, Zhaonan;",
+    "Title": "A hybrid method for the simulation of ion flow field of HVDC transmission lines based on finite element method and finite volume method",
+    "Publication": "Zhongguo Dianji Gongcheng Xuebao(Proceedings of the Chinese Society of Electrical Engineering)",
+    "Volume": 31,
+    "Number": 15,
+    "Pages": "127-133",
+    "Year": 2011,
+    "Publisher": "Chinese Society for Electrical Engineering"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Cui, Xiang; Lu, Tiebing; Zhen, Yongzan; Luo, Zhaonan;",
+    "Title": "A time-efficient method for the simulation of ion flow field of the AC-DC hybrid transmission lines",
+    "Publication": "IEEE transactions on magnetics",
+    "Volume": 48,
+    "Number": 2,
+    "Pages": "731-734",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Cui, Xiang; Lu, Tiebing; Fang, Chao; Zhen, Yongzan;",
+    "Title": "Spatial distribution of ion current around HVDC bundle conductors",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 27,
+    "Number": 1,
+    "Pages": "380-390",
+    "Year": 2011,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Lu, Tiebing; Cui, Xiang; Zhao, Zhibin; Zhen, Yongzan; Luo, Zhaonan; Fang, Chao;",
+    "Title": "Corona loss analysis of high voltage DC transmission lines in close proximity of high voltage AC transmission lines",
+    "Publication": "Proc. CSEE",
+    "Volume": 31,
+    "Number": 31,
+    "Pages": "211-218",
+    "Year": 2011,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Cui, Xiang; Lu, Tiebing; Liu, Yang; Li, Xuebao; Fang, Chao;",
+    "Title": "Measurement and modeling of low-frequency current from hybrid AC/DC corona",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 27,
+    "Number": 3,
+    "Pages": "1678-1686",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Lu, Tiebing; Cui, Xiang; Zhen, Yongzan; Liu, Gang;",
+    "Title": "Simulation of ion-flow field using fully coupled upwind finite-element method",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 27,
+    "Number": 3,
+    "Pages": "1574-1582",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Cui, Xiang; Lu, Tiebing; Liu, Yang; Li, Xuebao; He, Jiamei; Bai, Ru; Zhen, Yongzan;",
+    "Title": "Shielding effect of HVAC transmission lines on the ion-flow field of HVDC transmission lines",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 28,
+    "Number": 2,
+    "Pages": "1094-1102",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Cui, Xiang; Zhou, Xiangxian; Lu, Tiebing;",
+    "Title": "Recent progress in the calculation methods of ion flow field of HVDC transmission lines",
+    "Publication": "Proceedings of the CSEE",
+    "Volume": 32,
+    "Number": 36,
+    "Pages": "130-141",
+    "Year": 2012,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Zhao, Zhibing; Li, Lin; Cui, Xiang;",
+    "Title": "The acquisition and analysis system for lightning electromagnetic wave based on LabVIEW",
+    "Publication": "2010 Asia-Pacific International Symposium on Electromagnetic Compatibility",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1482-1485",
+    "Year": 2010,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Lu, Tiebing; Cui, Xiang; Zhen, Yongzan;",
+    "Title": "Analysis of the shielding effect of wire mesh to ion flow field from HVDC transmission lines",
+    "Publication": "IEEE transactions on magnetics",
+    "Volume": 50,
+    "Number": 2,
+    "Pages": "89-92",
+    "Year": 2014,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "周象贤;",
+    "Title": "高压交直流并行线路离子流场的计算方法研究及其应用",
+    "Publication": "",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2013,
+    "Publisher": "华北电力大学"
+  },
+  {
+    "Authors": "周象贤; 刘岩;",
+    "Title": "直流架空输电线路合成电场屏蔽措施分析",
+    "Publication": "浙江电力",
+    "Volume": 34,
+    "Number": 6,
+    "Pages": "1-4",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周象贤; 孙翔; 金佳敏;",
+    "Title": "终端变电站单相接地故障时变压器中性点过电压仿真与分析",
+    "Publication": "浙江电力",
+    "Volume": 34,
+    "Number": 5,
+    "Pages": "1-5",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周象贤; 蒋愉宽; 李特;",
+    "Title": "高压输电线路载流量计算软件的开发",
+    "Publication": "浙江电力",
+    "Volume": 34,
+    "Number": 8,
+    "Pages": "9-12",
+    "Year": 2015,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周象贤; 王少华; 蒋愉宽; 李特;",
+    "Title": "高压架空输电线路短时输电能力评估方法研究",
+    "Publication": "浙江电力",
+    "Volume": 35,
+    "Number": 4,
+    "Pages": "1-5",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Lu, Tiebing; Cui, Xiang; Liu, Yang; Li, Xuebao;",
+    "Title": "Simulation of ion-flow field at the crossing of HVDC and HVAC transmission lines",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 27,
+    "Number": 4,
+    "Pages": "2382-2389",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Yang, Shu-ying; Zhou, Xiang-xian;",
+    "Title": "Research on new type of power filter controlled by DSP",
+    "Publication": "2011 Asia-Pacific Power and Energy Engineering Conference",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1-4",
+    "Year": 2011,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Li, Xuebao; Cui, Xiang; Zhen, Yongzan; Lu, Tiebing; Luo, Zhaonan; Fang, Chao; Zhou, Xiangxian;",
+    "Title": "The Ionized Fields and the Ion Current on a Human Model Under 800-kV HVDC Transmission Lines",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 27,
+    "Number": 4,
+    "Pages": "2141-2149",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "周象贤; 温典; 王少华; 刘岩; 蒋愉宽; 李特;",
+    "Title": "高压架空输电线路分裂导线温度场仿真分析",
+    "Publication": "电工电气",
+    "Volume": "",
+    "Number": 3,
+    "Pages": "20-22",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "李特; 周啸宇; 葛黄徐; 王少华; 周象贤; 刘泽辉;",
+    "Title": "浙江输电线路不同伞形绝缘子积污特性试验研究",
+    "Publication": "绝缘材料",
+    "Volume": 49,
+    "Number": 9,
+    "Pages": "77-81",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "李特; 吴金木; 陈乔; 周象贤; 周国良; 蒋瑜宽;",
+    "Title": "基于大气环境质量及气象参数的绝缘子积污预测研究现状",
+    "Publication": "高压电器",
+    "Volume": 53,
+    "Number": 1,
+    "Pages": "175-180",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "王少华; 姜文东; 胡文堂; 周象贤; 李特; 吴尊东;",
+    "Title": "1000 kV 皖南—浙北特高压线路零序参数测试",
+    "Publication": "高压电器",
+    "Volume": 53,
+    "Number": 7,
+    "Pages": "13-18",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "杨帆; 刘浩军; 王少华; 刘佳朋; 周象贤; 高兵;",
+    "Title": "考虑实时气候对于输电线路载流量的影响",
+    "Publication": "广东电力",
+    "Volume": 30,
+    "Number": 7,
+    "Pages": "70-75",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周象贤; 王少华; 刘岩; 姜文东; 李特; 林祖荣;",
+    "Title": "架空输电线路中的铜铝电化学腐蚀效应分析",
+    "Publication": "电工电气",
+    "Volume": "",
+    "Number": 8,
+    "Pages": "35-38",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhen, Yongzan; Cui, Xiang; Lu, Tiebing; Li, Xuebao; Fang, Chao; Zhou, Xiangxian;",
+    "Title": "3-D finite-element method for calculating the ionized electric field and the ion current of the human body model under the UHVDC lines",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 28,
+    "Number": 2,
+    "Pages": "965-971",
+    "Year": 2013,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhen, Yongzan; Cui, Xiang; Lu, Tiebing; Luo, Zhaonan; Zhou, Xiangxian;",
+    "Title": "Total electric field calculation of body model under HVDC transmission lines",
+    "Publication": "2011 Asia-Pacific Power and Energy Engineering Conference",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1-4",
+    "Year": 2011,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Lu, Tiebing; Zhou, Xiangxian; Li, Jian; CUI, Xiang;",
+    "Title": "Prediction of ground level electric field and ion current density under three-circuit HVAC/HVDC transmission lines on one tower",
+    "Publication": "Power Syst. Technol",
+    "Volume": 36,
+    "Number": 5,
+    "Pages": "6-10",
+    "Year": 2012,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhen, Yongzan; Cui, Xiang; Lu, Tiebing; Zhou, Xiangxian; Luo, Zhaonan;",
+    "Title": "High efficiency FEM calculation of the ionized field under HVDC transmission lines",
+    "Publication": "IEEE transactions on magnetics",
+    "Volume": 48,
+    "Number": 2,
+    "Pages": "743-746",
+    "Year": 2012,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhen, Yongzan; Cui, Xiang; Lu, Tiebing; Zhou, Xiangxian; Luo, Zhaonan;",
+    "Title": "FEM high-speed method for calculating total electric field below HVDC lines",
+    "Publication": "Zhongguo Dianji Gongcheng Xuebao(Proceedings of the Chinese Society of Electrical Engineering)",
+    "Volume": 31,
+    "Number": 18,
+    "Pages": "113-118",
+    "Year": 2011,
+    "Publisher": "Chinese Society for Electrical Engineering"
+  },
+  {
+    "Authors": "Fang, Chao; Cui, Xiang; Zhou, Xiangxian; Lu, Tiebing; Zhen, Yongzan; Li, Xuebao;",
+    "Title": "Impact factors in measurements of ion-current density produced by high-voltage DC wire's corona",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 28,
+    "Number": 3,
+    "Pages": "1414-1422",
+    "Year": 2013,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Liu, Yang; Cui, Xiang; Lu, Tiebing; Wang, Xiaobo; Xiang, Yu; Zhou, Xiangxian; Li, Xuebao;",
+    "Title": "Accurate measurement of original current pulses because of positive corona in the coaxial cylindrical arrangement",
+    "Publication": "IET Science, Measurement & Technology",
+    "Volume": 9,
+    "Number": 1,
+    "Pages": "12-19",
+    "Year": 2015,
+    "Publisher": "IET"
+  },
+  {
+    "Authors": "Bai, Ru; Cui, Xiang; Lu, Tiebing; Zhou, Xiangxian; He, Jiamei; Hou, Haisu; Liu, Yang; Li, Xuebao;",
+    "Title": "Experimental study on ion-flow fields inside greenhouse models underneath the DC test wire",
+    "Publication": "IEEE transactions on power delivery",
+    "Volume": 28,
+    "Number": 4,
+    "Pages": "2154-2161",
+    "Year": 2013,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhen, Yongzan; Cui, Xiang; Lu, Tiebing; Luo, Zhaonan; Zhou, Xiangxian; Hu, Rong; Xiang, Xinyu;",
+    "Title": "Calculating charged electric potential of the conductor in ionized field",
+    "Publication": "Zhongguo Dianji Gongcheng Xuebao(Proceedings of the Chinese Society of Electrical Engineering)",
+    "Volume": 31,
+    "Number": 27,
+    "Pages": "8-13",
+    "Year": 2011,
+    "Publisher": "Chinese Society for Electrical Engineering"
+  },
+  {
+    "Authors": "周象贤; 蒋愉宽; 王少华; 李特; 曹俊平;",
+    "Title": "直埋电缆长期温升影响因素分析",
+    "Publication": "高压电器",
+    "Volume": 53,
+    "Number": 10,
+    "Pages": "178-182",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Cao, Junping; Wang, Shaohua; Jiang, Yukuan; Li, Te; Zou, Yang;",
+    "Title": "Simulation of electric field around typical defects in 110kV XLPE power cable joints",
+    "Publication": "2017 International Conference on Circuits, Devices and Systems (ICCDS)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "21-24",
+    "Year": 2017,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Jiang, Yukuan; Cao, Junping; Wang, Shaohua; Zhou, Xiangxian; Li, Te; Yang, Yong; Yu, Miao;",
+    "Title": "Functional analysis of high-voltage cable simulation platform based on analog experiment",
+    "Publication": "2017 International Conference on Circuits, Devices and Systems (ICCDS)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "120-126",
+    "Year": 2017,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "蒋愉宽; 童钧; 刘浩军; 王少华; 周象贤; 李特; 杨勇;",
+    "Title": "基于模拟试验的高压电缆状态仿真平台功能分析",
+    "Publication": "电工电气",
+    "Volume": "",
+    "Number": 2,
+    "Pages": "50-55",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "曹俊平; 蒋愉宽; 王少华; 周象贤; 李特; 周路遥; 杨勇;",
+    "Title": "XLPE 电力电缆接头缺陷检测关键技术分析与展望",
+    "Publication": "高压电器",
+    "Volume": 54,
+    "Number": "07",
+    "Pages": "87-97",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周象贤; 王少华; 童杭伟; 王谦; 李特; 蒋愉宽; 曹俊平;",
+    "Title": "高压输电线路多落点雷击故障分析方法及应用",
+    "Publication": "电瓷避雷器",
+    "Volume": 4,
+    "Number": "",
+    "Pages": "184-187",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Lu, Tiebing; Zhou, Xiangxian;",
+    "Title": "Measurement of Wire Meshes' Shielding Effect on Ion Flow Field under HVDC Overhead Lines",
+    "Publication": "2018 IEEE Symposium on Electromagnetic Compatibility, Signal Integrity and Power Integrity (EMC, SI & PI)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1-1",
+    "Year": 2018,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Wang, Shaohua; Li, Te; Cao, Junping; Zou, Yang; Xiang, Xinyu;",
+    "Title": "Probabilistic Ampacity Rating of 500kV Overhead Transmission Lines in Zhejiang Province",
+    "Publication": "2018 IEEE 3rd International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "98-103",
+    "Year": 2018,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Cao, Junping; Jiang, Hang; Zhou, Luyao; Wang, Shaohua; Zhou, Xiangxian; Li, Te;",
+    "Title": "Accurate Fault Location Method and Verification Test Analysis of High-Voltage Cable Hybrid Lines",
+    "Publication": "2018 IEEE 3rd International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "104-108",
+    "Year": 2018,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Li, Te; Jiang, Wendong; Mei, Binxiao; Zou, Yang; Li, Lin;",
+    "Title": "Designing and Application of High Voltage Overhead Transmission Line Typhoon Disaster Prediction Method",
+    "Publication": "Proceedings of PURPLE MOUNTAIN FORUM 2019-International Forum on Smart Grid Protection and Control",
+    "Volume": "",
+    "Number": "",
+    "Pages": "769-777",
+    "Year": 2020,
+    "Publisher": "Springer, Singapore"
+  },
+  {
+    "Authors": "雷梦飞; 王少华; 刘黎; 李健; 周象贤; 李特;",
+    "Title": "特高压直流输电线路雷击故障特性分析",
+    "Publication": "电瓷避雷器",
+    "Volume": "",
+    "Number": 3,
+    "Pages": "57-62",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "曹俊平; 刘黎; 黄肖为; 黄勃; 杜伟; 李特; 周象贤;",
+    "Title": "高压电缆接头界面气隙缺陷模拟及状态特征量分析",
+    "Publication": "绝缘材料",
+    "Volume": 2,
+    "Number": "",
+    "Pages": "",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "李特; 周象贤; 池伟; 胡文堂; 毛航银; 王振国;",
+    "Title": "通道宽度对线路通道雷电多重回击特性统计的影响",
+    "Publication": "浙江电力",
+    "Volume": 9,
+    "Number": "",
+    "Pages": "",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "王少华; 金祖山; 李特; 许杨勇; 周象贤;",
+    "Title": "特高压输电线路雷电绕击影响因素及防护措施",
+    "Publication": "水电能源科学",
+    "Volume": 6,
+    "Number": "",
+    "Pages": "",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wang, Zhenguo; Ni, Linna; Zhou, Xiangxian; Li, Te; Lu, Tiebing;",
+    "Title": "An experimental investigation on the correlation between corona current pulse and the ground level ion flow field",
+    "Publication": "2019 IEEE 3rd International Conference on Circuits, Systems and Devices (ICCSD)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "101-105",
+    "Year": 2019,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Wang, Shaohua; Zhou, Xiaoyu; Li, Te; Cao, Junping; Zou, Yang;",
+    "Title": "Analysis of Lightning Performance of Overhead Transmission Lines with Insulator Parallel Gaps",
+    "Publication": "2019 IEEE 3rd International Conference on Circuits, Systems and Devices (ICCSD)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "87-91",
+    "Year": 2019,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "杨续超; 周象贤; 刘浩军; 张斌;",
+    "Title": "基于气象典型年的电力线路通道气温环境数据生成方法及结果分析",
+    "Publication": "科技通报",
+    "Volume": 2,
+    "Number": "",
+    "Pages": "",
+    "Year": 2019,
+    "Publisher": ""
+  },
+  {
+    "Authors": "李特; 姜文东; 王少华; 毛航银; 周象贤; 骆阗彦;",
+    "Title": "±800kV 宾金线浙江段线路走廊雷电地闪多重回击特征分析",
+    "Publication": "电瓷避雷器",
+    "Volume": "",
+    "Number": 3,
+    "Pages": "12-18",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zou, Biao; Wang, Heping; Zhou, Xiangxian; Jiang, Wendong; Du, Wei;",
+    "Title": "Research on Multi-source Data Fusion of 3D Scene in Power Grid",
+    "Publication": "Journal of Physics: Conference Series",
+    "Volume": 1575,
+    "Number": 1,
+    "Pages": "012205",
+    "Year": 2020,
+    "Publisher": "IOP Publishing"
+  },
+  {
+    "Authors": "Zou, Biao; Wang, Heping; Zhou, Xiangxian; Jiang, Wendong; Du, Wei;",
+    "Title": "Research on Optimization of Rendering Efficiency of Point Cloud Data of Transmission Lines in Three-Dimensional GIS",
+    "Publication": "Journal of Physics: Conference Series",
+    "Volume": 1575,
+    "Number": 1,
+    "Pages": "012167",
+    "Year": 2020,
+    "Publisher": "IOP Publishing"
+  },
+  {
+    "Authors": "薛文博; 余晖; 汤胜茗; 黄伟; 姜文东; 周象贤; 陆逸;",
+    "Title": "上海快速更新同化数值预报系统 (SMS-WARR) 的近地面风速预报检验评估",
+    "Publication": "气象",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2020,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Wang, Zhenguo; Li, Te; Wang, Shaohua; Zhou, Xiangxian; Zhou, Luyao; Ni, Linna;",
+    "Title": "Evaluation of the Protective Performance of the Lightning Arrester for the Lightning Shielding Failure of $\\pm 800\\mathrm {kV} $ Yibin-Jinhua UHVDC Transmission Line",
+    "Publication": "2020 IEEE International Conference on High Voltage Engineering and Application (ICHVE)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1-4",
+    "Year": 2020,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Shaohua, WANG; Libing, Y; Te, L; Guangzhen, R; Xiangxian, Z; Zhengxin, J; Hang, J;",
+    "Title": "Key problems of design for AC 500 kV cross-linked polyethylene insulation submarine cable",
+    "Publication": "High Voltage Apparatus",
+    "Volume": 54,
+    "Number": 8,
+    "Pages": "0225-0230",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Cao, JP; Wang, SH; Jiang, YK; Hu, WT; Liu, L; Zhou, XX; Li, T;",
+    "Title": "High-voltage cable operation analysis of Zhejiang power grid",
+    "Publication": "Electric Wire & Cable",
+    "Volume": 60,
+    "Number": 3,
+    "Pages": "39-43",
+    "Year": 2017,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Luyao, Zhou; Te, Li; Jinbiao, Ye; Xiangxian, Zhou; Xuxiang, Wu; Chaofeng, Chen;",
+    "Title": "Fault Analysis and Simulation Test Research on Lightning Stroke-Caused Wire-Breakage of Overhead Ground Line",
+    "Publication": "2019 IEEE 3rd International Conference on Circuits, Systems and Devices (ICCSD)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "132-137",
+    "Year": 2019,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Xiangxian, Zhou; Junping, Cao; Shaohua, Wang; Yukuan, J; Te, L; Yang, Z;",
+    "Title": "Three-dimensional Simulation Analysis of Electric Field Around Typical Defects in Intermediate Joints for 110kV XLPE Power Cable",
+    "Publication": "Insulating Materials",
+    "Volume": 51,
+    "Number": "07",
+    "Pages": "49-53",
+    "Year": 2018,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Shaohua, WANG; Te, LI; Xiangxian, ZHOU;",
+    "Title": "Failure analysis and prevention measures for post porcelain insulators fracture in substations",
+    "Publication": "Insulators and Surge Arresters",
+    "Volume": 5,
+    "Number": "",
+    "Pages": "35-38",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Wang, Zhenguo; Liu, Yan; Wang, Shaohua; Zhou, Luyao; Tong, Hangwei;",
+    "Title": "Characteristics of Lightning Faults of 220 kV and Above Overhead Transmission Lines in Zhejiang Province in last 15 Years",
+    "Publication": "2020 IEEE 4th Conference on Energy Internet and Energy System Integration (EI2)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "3171-3174",
+    "Year": 2020,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "Zhou, Xiangxian; Xu, Jun; Wang, Shaohua; Zhou, Xiaoyu; Wang, Zhenguo; Huang, Youcong;",
+    "Title": "Characteristic of Faults of High Voltage Overhead Transmission Lines Caused by Typhoon in East Coast of China",
+    "Publication": "The 16th International Conference on AC and DC Power Transmission",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2020,
+    "Publisher": ""
+  },
+  {
+    "Authors": "LI, Te; JIANG, Wendong; WANG, Shaohua; CHENG, Guokai; CHAO, Yafeng; LIU, Li; ZHOU, Xiangxian;",
+    "Title": "Temperature Characteristic Analysis of 500 kV Transmission Line Composite Insulators Based on Field Infrared Test by Drone",
+    "Publication": "",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2020,
+    "Publisher": ""
+  },
+  {
+    "Authors": "WANG, Zhenguo; LI, Te; YE, Jinbiao; ZHOU, Xiangxian; LI, Naiyi;",
+    "Title": "Breakdown Analysis and the Mechanism Study of Composite Insulator in 110 kV AC Transmission Line",
+    "Publication": "",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2020,
+    "Publisher": ""
+  },
+  {
+    "Authors": "李特; 周啸宇; 葛黄徐; 王少华; 周象贤; 刘泽辉;",
+    "Title": "Test research on contamination accumulation characteristic of insulators with different shed shape on power lines in zhejiang province power lines",
+    "Publication": "绝缘材料",
+    "Volume": 9,
+    "Number": "",
+    "Pages": "77-81",
+    "Year": 2016,
+    "Publisher": ""
+  },
+  {
+    "Authors": "康丽莉; 姜瑜君; 邓芳萍; 周象贤;",
+    "Title": "中国南方地区冻雨落区分析及推算",
+    "Publication": "气象",
+    "Volume": 47,
+    "Number": 9,
+    "Pages": "1122-1134",
+    "Year": 2021,
+    "Publisher": ""
+  },
+  {
+    "Authors": "Li, Naiyi; Shao, Xianjun; Wang, Shaohua; Zhou, Xiangxian; Cao, Junping; Ren, Guangzhen; Li, Xuejing; Li, Guochang; Wei, Yanhui; Lei, Qingquan;",
+    "Title": "Thermal aging property and breakdown property of submarine cable materials",
+    "Publication": "2021 IEEE 4th International Electrical and Energy Conference (CIEEC)",
+    "Volume": "",
+    "Number": "",
+    "Pages": "1-4",
+    "Year": 2021,
+    "Publisher": "IEEE"
+  },
+  {
+    "Authors": "周象贤; 刘黎; 王少华; 邵先军; 李特; 王振国; 刘岩; 曹俊平; 葛黄徐; 王谦;",
+    "Title": "浙江电网自然灾害特征, 趋势与预测技术概况",
+    "Publication": "浙江电力",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2021,
+    "Publisher": ""
+  },
+  {
+    "Authors": "周晨; 周路遥; 李特; 周象贤; 王少华; 黄中华;",
+    "Title": "浙江省内复合绝缘子断串及芯棒击穿故障分析",
+    "Publication": "高压电器",
+    "Volume": "",
+    "Number": "",
+    "Pages": "",
+    "Year": 2021,
+    "Publisher": ""
+  }
+]

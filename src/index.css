@@ -1,11 +1,19 @@
 .myname {
   font-size: x-large;
-  color: lightslategray;
+  color: darkslategrey;
 }
 
 .sectionHead {
   font-size: larger;
   color: darkslategrey;
+  background-color: rgb(236, 233, 233);
+}
+
+.sectionYear {
+  text-align: center;
+  font-size: x-larger;
+  color: darkslategrey;
+  background-color: rgb(236, 233, 233);
 }
 
 .introduction {
@@ -43,6 +51,33 @@
 
 #nav-dropdown:hover {
   font-size: larger;
+  text-align: center;
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.papertitle {
+  font-size: large;
+  color: darkslategrey;
+  border: none;
+}
+
+.paperauthor {
+  font-size: medium;
+  color: lightslategray;
+  border: none;
+  margin: 0px 0;
+}
+
+.paperpublication {
+  font-size: medium;
+  color: lightslategray;
+  border: none;
+  margin: 0px 0;
+}
+
+#authorZhou {
+  font-size: medium;
   text-align: center;
   color: dodgerblue;
   text-decoration: none;
