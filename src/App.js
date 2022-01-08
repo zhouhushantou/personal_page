@@ -9,45 +9,51 @@ import {
   BrowserRouter as Router,
   Switch, Route, Link
 } from "react-router-dom"
+import Helmet from "react-helmet";
 
 function App() {
   return (
-    <Router>
-      <Container>
-        <Row>
-          <Col >
-            <Personinfo />
-          </Col>
-          <Col sm={9}>
-            <Navigation />
-            <Switch>
-              <Route exact path="/personal_page">
-                <Resume />
-              </Route>
-              <Route path="/personal_page/publications" >
-                <Publications />
-              </Route>
-              <Route path="/personal_page/blogs">
-                <Blogs />
-              </Route>
-              <Route path="/personal_page/projects/webapp">
-                <Projects projectType="webapp" />
-              </Route>
-              <Route path="/personal_page/projects/datascience">
-                <Projects projectType="datascience" />
-              </Route>
-              <Route path="/personal_page/projects/science">
-                <Projects projectType="science" />
-              </Route>
-              <Route path="/personal_page/projects/engineer">
-                <Projects projectType="engineer" />
-              </Route>
-            </Switch>
+    <>
+      <Helmet>
+        <title>Xiangxian Zhou's Page</title>
+      </Helmet>
+      <Router>
+        <Container>
+          <Row>
+            <Col >
+              <Personinfo />
+            </Col>
+            <Col sm={9}>
+              <Navigation />
+              <Switch>
+                <Route exact path="/personal_page">
+                  <Resume />
+                </Route>
+                <Route exact path="/personal_page/publications" >
+                  <Publications />
+                </Route>
+                <Route exact path="/personal_page/blogs">
+                  <Blogs />
+                </Route>
+                <Route exact path="/personal_page/projects/webapp">
+                  <Projects projectType="webapp" />
+                </Route>
+                <Route exact path="/personal_page/projects/datascience">
+                  <Projects projectType="datascience" />
+                </Route>
+                <Route exact path="/personal_page/projects/science">
+                  <Projects projectType="science" />
+                </Route>
+                <Route exact path="/personal_page/projects/engineer">
+                  <Projects projectType="engineer" />
+                </Route>
+              </Switch>
 
-          </Col>
-        </Row>
-      </Container>
-    </Router>
+            </Col>
+          </Row>
+        </Container>
+      </Router>
+    </>
   );
 }
 
