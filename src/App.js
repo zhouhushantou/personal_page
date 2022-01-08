@@ -21,25 +21,25 @@ function App() {
           <Col sm={9}>
             <Navigation />
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/personal_page">
                 <Resume />
               </Route>
-              <Route path="/publications" >
+              <Route path="/personal_page/publications" >
                 <Publications />
               </Route>
-              <Route path="/blogs">
+              <Route path="/personal_page/blogs">
                 <Blogs />
               </Route>
-              <Route path="/projects/webapp">
+              <Route path="/personal_page/projects/webapp">
                 <Projects projectType="webapp" />
               </Route>
-              <Route path="/projects/datascience">
+              <Route path="/personal_page/projects/datascience">
                 <Projects projectType="datascience" />
               </Route>
-              <Route path="/projects/science">
+              <Route path="/personal_page/projects/science">
                 <Projects projectType="science" />
               </Route>
-              <Route path="/projects/engineer">
+              <Route path="/personal_page/projects/engineer">
                 <Projects projectType="engineer" />
               </Route>
             </Switch>

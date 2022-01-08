@@ -13,8 +13,8 @@ const Resume = () => {
                     <p className="introduction">
                         I am a <a href="https://scholar.google.com/citations?user=jEqFraUAAAAJ&hl=en">power system researcher</a> specialized in high voltage power transmission.
                         I am a life learner and at present proudly being a student of GT's <a href="https://omscs.gatech.edu/">OMSCS program</a> specialized in computer systems.
-                        I living in Hangzhou, China with my family.
                         I have broad experience in scientific computing and engineering simulation and enjoy solving real world problems through coding.
+                        I living in Hangzhou, China with my family and I like hiking around the mountains beside the West Lake.
                     </p>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>

@@ -5,7 +5,6 @@ const Blogs = () => {
             <br />
             <br />
             <br />
-            <p>under construction</p>
         </>
     )
 }
