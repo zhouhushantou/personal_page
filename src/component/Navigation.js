@@ -6,7 +6,6 @@ const Navigation = () => {
         <>
             <Navbar bg="light" >
                 <Container>
-                    {/* <Nav > */}
                     <LinkContainer to="/">
                         <Nav.Link className=" navInactive" > Resume</Nav.Link>
                     </LinkContainer>
@@ -31,7 +30,6 @@ const Navigation = () => {
                     <LinkContainer to="/blogs">
                         <Nav.Link className="navInactive">Blogs</Nav.Link>
                     </LinkContainer>
-                    {/* </Nav> */}
                 </Container>
             </Navbar>
         </>
