@@ -20,7 +20,7 @@ const Resume = () => {
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
                         <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
-                        <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux</li>
+                        <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
                         <li><b><FaLinux /> System Programming: </b>gRPC, Pthread, IPC</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
