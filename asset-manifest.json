@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/personal_page/static/css/main.1ee41f82.css",
-    "main.js": "/personal_page/static/js/main.99ef54bb.js",
+    "main.js": "/personal_page/static/js/main.2bddfb00.js",
     "static/media/corridor_flash.png": "/personal_page/static/media/corridor_flash.41ed2baa32fcae5c1c66.png",
     "static/media/logo.png": "/personal_page/static/media/logo.93adaaf5af76c8d9c2ee.png",
     "static/media/wave_dem.mp4": "/personal_page/static/media/wave_dem.7c4f3cef554596a5dbbe.mp4",
+    "static/media/charge_flower.jpg": "/personal_page/static/media/charge_flower.d470ac82e0e09437e4ce.jpg",
+    "static/media/ion_flow.jpg": "/personal_page/static/media/ion_flow.c6be7bc189c6363af1a2.jpg",
     "static/media/temp_dist.png": "/personal_page/static/media/temp_dist.b2ccfaf69bc3a936ed10.png",
     "static/media/temperal_strength.png": "/personal_page/static/media/temperal_strength.bcf48f329e98b3f0f6e7.png",
     "static/media/name_cn.png": "/personal_page/static/media/name_cn.6ed07988a0c2deb207bc.png",
-    "static/media/main_page.PNG?raw=true": "/personal_page/static/media/main_page.f6a693b3e83df561c878.PNG",
+    "static/media/main_page.PNG": "/personal_page/static/media/main_page.f6a693b3e83df561c878.PNG",
     "static/media/FEM.png": "/personal_page/static/media/FEM.04539291d6715c70a493.png",
     "static/media/cable.PNG": "/personal_page/static/media/cable.c4eccb253a94ddee7de5.PNG",
     "static/media/ef_line.PNG": "/personal_page/static/media/ef_line.7e4235f6b50742309330.PNG",
@@ -16,10 +18,10 @@
     "static/media/main3.png": "/personal_page/static/media/main3.bb3250d1356d06078e9e.png",
     "index.html": "/personal_page/index.html",
     "main.1ee41f82.css.map": "/personal_page/static/css/main.1ee41f82.css.map",
-    "main.99ef54bb.js.map": "/personal_page/static/js/main.99ef54bb.js.map"
+    "main.2bddfb00.js.map": "/personal_page/static/js/main.2bddfb00.js.map"
   },
   "entrypoints": [
     "static/css/main.1ee41f82.css",
-    "static/js/main.99ef54bb.js"
+    "static/js/main.2bddfb00.js"
   ]
 }
