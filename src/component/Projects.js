@@ -7,7 +7,9 @@ import ef_line from "../resource/Hybrid_field_project/ef_line.PNG"
 import cable from "../resource/Ampacity_rating_project/cable.PNG"
 import lineSag from "../resource/Line_sag_project/main.PNG"
 import lightning from "../resource/Lighting_calculation_project/main3.png"
-import letterSound from "../resource/Letter_sound_project/main_page.PNG?raw=true"
+import letterSound from "../resource/Letter_sound_project/main_page.PNG"
+import chargeflower from "../resource/corona/charge_flower.jpg"
+import ionflow from "../resource/corona/ion_flow.jpg"
 import { Container, Col, Row } from "react-bootstrap"
 
 const Projects = ({ projectType }) => {
@@ -32,6 +34,10 @@ const Projects = ({ projectType }) => {
 
                         <br />  <br />
                         <h5 className="sectionHead">&nbsp;&nbsp;Evaluation of Lightning Performance of Transmission Lines</h5>
+                        <p>
+                            <a href="https://ieeexplore.ieee.org/document/9347140">
+                                <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
+                        </p>
                         <p className="introduction">Lightning causes about 60% of all the high voltage transmission line trip-outs which threats the stability of the power grid.
                             To reduce the lightning trip-out rate, an utility company started large-scale surge arrester installation from 2016.
                             This work first collected operation data and surge arrester data from the 220kV and above overhead transmission lines,
@@ -68,9 +74,22 @@ const Projects = ({ projectType }) => {
                     </Col>
                     <Col sm={11}>
                         <br />
+                        <h5 className="sectionHead">Numerical Simulation of Hybrid AC-DC Corona Discharge</h5>
+                        <p>
+                            <a href="https://ieeexplore.ieee.org/document/6136509">
+                                <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
+                        </p>
+                        <p className="introduction">Accurate modeling and simulation of corona discharge are essential in designing environment-friendly power transmission corridors.
+                            I proposed a FEM/FVM based simulation method for ion flow field from corona discharge. I implemented the proposed simulation method with C++ to
+                            achieve high performance. The triangular mesh and polygon mesh have been used to discretize and solve the FEM and FVM control equations respectively.
+                            The proposed simulation method has proved to be highly efficient and robust, and multiple papers have been published in IEEE journals.</p>
+                        <img src={chargeflower} width={400} />
+                        <img src={ionflow} width={400} />
+
+                        <br /><br />
                         <h5 className="sectionHead">Solving Electric Field by using Finite Element Method</h5>
                         <p>
-                            <a href="https://github.com/zhouhushantou/personal_page/FEM">
+                            <a href="https://github.com/zhouhushantou/FEM">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
                         <p className="introduction">I developed this Finite Element Method program to solve static electric field problems.
@@ -81,13 +100,13 @@ const Projects = ({ projectType }) => {
                         <br /><br />
                         <h5 className="sectionHead">Transmission Line Electromagnetic Wave Propagation Demonstration</h5>
                         <p>
-                            <a href="https://github.com/zhouhushantou/personal_page/Wave_propagation_demonstration/releases/tag/firt">
+                            <a href="https://github.com/zhouhushantou/Wave_propagation_demonstration">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
                         <p className="introduction">I developed this .NET application to help people understand how the electromagnetic wave are propagate along the
                             transmission lines. The wave reflection and and refraction in different load and source conditions can be demonstrated in this application.</p>
 
-                        <video width="475" height="442" autoplay muted src={wave_dem} type="video/mp4" ></video>
+                        <video width="475" height="442" autoPlay muted src={wave_dem} type="video/mp4"></video>
 
                     </Col>
                     <Col >
@@ -108,7 +127,7 @@ const Projects = ({ projectType }) => {
                         <br />
                         <h5 className="sectionHead">Hybrid Corridor Ground Level Electric Field Calculation Software</h5>
                         <p>
-                            <a href="https://github.com/zhouhushantou/zhouhushantou.github.io/tree/main/Hybrid_field_project">
+                            <a href="https://github.com/zhouhushantou/personal_page/tree/master/src/resource/Hybrid_field_project">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
                         <p className="introduction">Put HVAC and HVDC on the same tower or same corrior is called hybrid corridor, which is a effective way to
@@ -122,19 +141,22 @@ const Projects = ({ projectType }) => {
                         <p>
                             <a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2016&filename=ZJDL201604001&v=YKcCfLWSey%25mmd2FlXjCbhBxbEm0O6gEkxYCfjFff6V%25mmd2F585AbAQdbXR80enYQbG6HuV%25mmd2FV">
                                 <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
-                            <a href="https://github.com/zhouhushantou/zhouhushantou.github.io/tree/main/Line_sag_project">
+                            <a href="https://github.com/zhouhushantou/personal_page/tree/master/src/resource/Line_sag_project">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
-                        <p>Calulation of the line sag of HV transmission lines is a frequently encountered engineering problem, which is usually used to determine if the transmission line will have enough clearance to the ground. I developed this software to simplify the line sag calcualtion process. </p>
+                        <p className="introduction">Calulation of the line sag of HV transmission lines is a frequently encountered engineering problem, which is usually used
+                            to determine if the transmission line will have enough clearance to the ground. I developed this software to simplify the line sag calcualtion process. </p>
                         <img src={lineSag} width={800} />
 
                         <br /><br />
                         <h5 className="sectionHead">Tower Lightning Performance Calculation Software</h5>
                         <p>
-                            <a href="https://github.com/zhouhushantou/zhouhushantou.github.io/tree/main/Lighting_calculation_project">
+                            <a href="https://github.com/zhouhushantou/personal_page/tree/master/src/resource/Lighting_calculation_project">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
-                        <p>After each time the transmission line tower stroke by lightning and caused lightning trip, the ligtrning performance of the tower need to be calculated to help the fault analysis and to determine what measure should be taken to reduce lightning trip rate. I developed this software to help the tower ligtning performance calculation. This software can perform both sheilding failure and back flashover calculation.</p>
+                        <p className="introduction">After each time the transmission line tower stroke by lightning and caused lightning trip, the ligtrning performance of the
+                            tower need to be calculated to help the fault analysis and to determine what measure should be taken to reduce lightning trip rate. I developed this software
+                            to help the tower ligtning performance calculation. This software can perform both sheilding failure and back flashover calculation.</p>
                         <img src={lightning} width={800} />
 
                         <br /><br />
@@ -142,10 +164,12 @@ const Projects = ({ projectType }) => {
                         <p>
                             <a href="https://nxgp.cnki.net/kcms/detail?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7i6NNuNFj4FaBns1tLyvff5saQ8ZM7b5_gqUniQNyWbmVwfyjDVdg8_rbE5aAvlqD&uniplatform=NZKPT&uid=WEEvREcwSlJHSldTTEYzVTFPU25OU1ZWc2ZjQmVMSjB3Q2VHYURydTJpND0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!">
                                 <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
-                            <a href="https://github.com/zhouhushantou/zhouhushantou.github.io/tree/main/Ampacity_rating_project">
+                            <a href="https://github.com/zhouhushantou/personal_page/tree/master/src/resource/Ampacity_rating_project">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
                         </p>
-                        <p>Ampacity rating is one of the important work in power grid design and operation. Correct ampacity rating can release the potential of the power transmission network while keep overheat risk at very low level. I developed the static and dynamic ampacity rating software for overhead transmission lines and static ampacity rating software for power cables. These software are with simple interface which is user friendly.</p>
+                        <p className="introduction">Ampacity rating is one of the important work in power grid design and operation. Correct ampacity rating can release the
+                            potential of the power transmission network while keep overheat risk at very low level. I developed the static and dynamic ampacity rating software
+                            for overhead transmission lines and static ampacity rating software for power cables. These software are with simple interface which is user friendly.</p>
                         <img src={cable} width={800} />
 
                     </Col>
@@ -157,14 +181,29 @@ const Projects = ({ projectType }) => {
     }
     if (projectType === "webapp") {
         return (
-            <>
-                <br />
-                <h5 className="sectionHead"> Learning Letters and Numbers on Keyboard for Kids</h5>
-                < p > I want to teach my daughter the pronounciation of the letters and numbers on the keyboard but didn't found any existing web
-                    page that can serve this purpose. So I built this very simple webpage.I downloaded the sound and picture of the letters from internet
-                    and forget the source address. If anyone known the source, please tell me and I will add reference to it.</p>
-                < img src={letterSound} width={800} />
-            </>
+            <Container>
+                <Row>
+                    <Col >
+                    </Col>
+                    <Col sm={11}>
+                        <br />
+                        <h5 className="sectionHead"> Development of Disaster Warning Backend System</h5>
+                        < p className="introduction"> Squaline can bring strong wind and intense lightning, which pose risk to the power system. I developed a system that downloads the radar reflection
+                            data and numerical weather forecasting data from a remote server and detects if there is strong radar reflection and wind close to the power transmission
+                            lines. If detected, the system will compile a report by using the Docx module in Python and send out the report through SFTP. The data are stored in an
+                            SQLite database and the data are processed with pandas module in Python</p>
+                        {/* < img src={letterSound} width={800} /> */}
+                        <br />  <br />
+                        <h5 className="sectionHead"> Learning Letters and Numbers on Keyboard for Kids</h5>
+                        < p className="introduction"> I want to teach my daughter the pronounciation of the letters and numbers on the keyboard but didn't found any existing web
+                            page that can serve this purpose. So I built this very simple webpage.I downloaded the sound and picture of the letters from internet
+                            and forget the source address. If anyone known the source, please tell me and I will add reference to it.</p>
+                        < img src={letterSound} width={800} />
+                    </Col>
+                    <Col >
+                    </Col>
+                </Row>
+            </Container>
         )
     }
 }
