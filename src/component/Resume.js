@@ -80,13 +80,54 @@ const Resume = () => {
                         </li>
                     </ul>
                     <br />
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informal Education</h5>
+                    <ul className="introduction">
+                        <li> <b><a href="https://www.cfainstitute.org/en/">CFA Institute</a></b>
+                            <ul>
+                                <li>Passed <b>CFA level II</b> Exam in 2019</li>
+                                <li>Passed <b>CFA level I</b> Exam  in 2018</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience</h5>
                     <ul>
                         <li className="introduction"><b>State Grid Zhejiang Electric Power Research Institute</b>
                             <ul>
-                                <li><b>Tech Director: </b>From August 2020 to present</li>
-                                <li><b>Senior Engineer: </b>From December 2016 to August 2020</li>
-                                <li><b>Engineer: </b>From August 2013 to Dec 2016</li>
+                                <li><b>Tech Director</b> of Power Transmission Technology Unit
+                                    <ul>
+                                        <li>From August 2020 to present</li>
+                                        <li>Job description:
+                                            <ul>
+                                                <li>Leading a small but elite research engineer team</li>
+                                                <li>Propose, conduct and manage research projects</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><b>Senior Engineer</b>
+                                    <ul>
+                                        <li>From December 2016 to August 2020</li>
+                                        <li>Job description:
+                                            <ul>
+                                                <li>Conduct power transmission technology research</li>
+                                                <li>Design and development of power system disater warning systems</li>
+                                                <li>Investigation and analysis of power system faults </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><b>Engineer</b>
+                                    <ul>
+                                        <li>From August 2013 to Dec 2016</li>
+                                        <li>Job description:
+                                            <ul>
+                                                <li>Conduct power transmission technology research</li>
+                                                <li>Substations and transmission lines commission and diagnosis tests</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                     </ul>
