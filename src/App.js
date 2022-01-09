@@ -6,7 +6,7 @@ import Blogs from "./component/Blogs"
 import Publications from "./component/Publications"
 import { Container, Col, Row } from "react-bootstrap"
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch, Route, Link
 } from "react-router-dom"
 import Helmet from "react-helmet";
@@ -17,7 +17,7 @@ function App() {
       <Helmet>
         <title>Xiangxian Zhou's Page</title>
       </Helmet>
-      <Router>
+      <Router basename="/personal_page">
         <Container>
           <Row>
             <Col >
@@ -26,25 +26,25 @@ function App() {
             <Col sm={9}>
               <Navigation />
               <Switch>
-                <Route exact path="/personal_page">
+                <Route exact path="/">
                   <Resume />
                 </Route>
-                <Route exact path="/personal_page/publications" >
+                <Route exact path="/publications" >
                   <Publications />
                 </Route>
-                <Route exact path="/personal_page/blogs">
+                <Route exact path="/blogs">
                   <Blogs />
                 </Route>
-                <Route exact path="/personal_page/projects/webapp">
+                <Route exact path="/projects/webapp">
                   <Projects projectType="webapp" />
                 </Route>
-                <Route exact path="/personal_page/projects/datascience">
+                <Route exact path="/projects/datascience">
                   <Projects projectType="datascience" />
                 </Route>
-                <Route exact path="/personal_page/projects/science">
+                <Route exact path="/projects/science">
                   <Projects projectType="science" />
                 </Route>
-                <Route exact path="/personal_page/projects/engineer">
+                <Route exact path="/projects/engineer">
                   <Projects projectType="engineer" />
                 </Route>
               </Switch>
