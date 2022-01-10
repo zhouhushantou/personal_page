@@ -25,6 +25,13 @@ const Personinfo = () => {
             <a href="https://github.com/zhouhushantou" className="mylinks" ><AiFillGithub /> GitHub</a>
             <br />
             <a href="https://scholar.google.com/citations?user=jEqFraUAAAAJ&hl=en" className="mylinks" > <SiGooglescholar /> Google Scholar</a>
+            <br />
+            <br />
+            <p className="introduction"> Favorite Quote:</p>
+            <p className="introduction">"In the face of power, I would always be at a disadvantage, I knew, but I was a born contrarian, and there’s no other way for me to
+                live except by taking an oppositional stance.”</p>
+            <p className="introduction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ai Weiwei </p>
         </Container>
     )
 }
