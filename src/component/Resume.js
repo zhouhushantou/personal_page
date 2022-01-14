@@ -46,7 +46,7 @@ const Resume = () => {
                                     <li>
                                         Ongoing Courses:
                                         <ul>
-                                            <li><a href="https://omscs.gatech.edu/cs-6210-advanced-operating-systems">Advanced Operation Systems</a></li>
+                                            <li><a href="https://omscs.gatech.edu/cs-6210-advanced-operating-systems">Advanced Operating Systems</a></li>
                                             <li><a href="https://omscs.gatech.edu/cs-6250-computer-networks">Computer Networks</a></li>
                                         </ul>
                                     </li>

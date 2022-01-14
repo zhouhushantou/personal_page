@@ -4,6 +4,7 @@ import Resume from "./component/Resume"
 import Projects from "./component/Projects"
 import Blogs from "./component/Blogs"
 import Publications from "./component/Publications"
+import Patents from "./component/Patents"
 import { Container, Col, Row } from "react-bootstrap"
 import {
   HashRouter as Router,
@@ -34,6 +35,9 @@ function App() {
                 </Route>
                 <Route exact path="/blogs">
                   <Blogs />
+                </Route>
+                <Route exact path="/patents">
+                  <Patents />
                 </Route>
                 <Route exact path="/projects/webapp">
                   <Projects projectType="webapp" />

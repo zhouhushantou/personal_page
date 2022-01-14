@@ -12,7 +12,9 @@ const Navigation = () => {
                     <LinkContainer to="/publications">
                         <Nav.Link className="navInactive">Publications</Nav.Link>
                     </LinkContainer>
-
+                    <LinkContainer to="/patents">
+                        <Nav.Link className="navInactive">Patents</Nav.Link>
+                    </LinkContainer>
                     <NavDropdown title="Projects" id="nav-dropdown" >
                         <LinkContainer to="/projects/engineer">
                             <NavDropdown.Item href="/projects/engineer" className="navInactive">Engineering Software</NavDropdown.Item>
