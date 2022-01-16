@@ -10,6 +10,7 @@ import lightning from "../resource/Lighting_calculation_project/main3.png"
 import letterSound from "../resource/Letter_sound_project/main_page.PNG"
 import chargeflower from "../resource/corona/charge_flower.jpg"
 import ionflow from "../resource/corona/ion_flow.jpg"
+import squalineFig from "../resource/squaline.png"
 import { Container, Col, Row } from "react-bootstrap"
 
 const Projects = ({ projectType }) => {
@@ -192,7 +193,7 @@ const Projects = ({ projectType }) => {
                             data and numerical weather forecasting data from a remote server and detects if there is strong radar reflection and wind close to the power transmission
                             lines. If detected, the system will compile a report by using the Docx module in Python and send out the report through SFTP. The data are stored in an
                             SQLite database and the data are processed with pandas module in Python</p>
-                        {/* < img src={letterSound} width={800} /> */}
+                        < img src={squalineFig} width={700} />
                         <br />  <br />
                         <h5 className="sectionHead"> Learning Letters and Numbers on Keyboard for Kids</h5>
                         < p className="introduction"> I want to teach my daughter the pronounciation of the letters and numbers on the keyboard but didn't found any existing web
