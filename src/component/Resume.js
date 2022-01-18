@@ -1,5 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap"
 import { FaDatabase, FaLinux, FaReact, FaPython } from 'react-icons/fa';
+import { FcElectroDevices, FcDataEncryption, FcCapacitor, FcDam } from 'react-icons/fc';
 import { SiNumpy } from 'react-icons/si';
 const Resume = () => {
     return (
@@ -24,6 +25,14 @@ const Resume = () => {
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
                         <li><b><FaLinux /> System Programming: </b>gRPC, pthreads, libvirt, shell</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
+                    </ul>
+                    <br />
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
+                    <ul className="introduction">
+                        <li><FcElectroDevices /> Power System <b>EMC</b></li>
+                        <li><FcCapacitor /> Large-Scale Power System Simulation based on <b>HPC</b></li>
+                        <li><FcDataEncryption /> Power System <b>Big Data</b> Analysis</li>
+                        <li><FcDam /> <b>AI</b> based Power System <b>Climate Disaster</b> Warning & Mitigation</li>
                     </ul>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</h5>

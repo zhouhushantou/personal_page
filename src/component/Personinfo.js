@@ -3,7 +3,6 @@ import logo from "../resource/logo.png"
 import name_cn from "../resource/name_cn.png"
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 import { SiGooglescholar } from 'react-icons/si'
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 
 const Personinfo = () => {
     const position = [51.505, -0.09]//[120.15, 30.3]

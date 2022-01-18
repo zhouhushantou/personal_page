@@ -22,7 +22,7 @@ function App() {
       <Router basename="/personal_page">
         <Container>
           <Row>
-            <Col >
+            <Col>
               <Personinfo />
               <Map />
             </Col>

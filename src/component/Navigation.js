@@ -20,7 +20,7 @@ const Navigation = () => {
                             <NavDropdown.Item href="/projects/engineer" className="navInactive">Engineering Software</NavDropdown.Item>
                         </LinkContainer>
                         <LinkContainer to="/projects/datascience">
-                            <NavDropdown.Item href="/projects/datascience" className="navInactive" >Data Science</NavDropdown.Item>
+                            <NavDropdown.Item href="/projects/datascience" className="navInactive" >Data Analysis</NavDropdown.Item>
                         </LinkContainer>
                         <LinkContainer to="/projects/science">
                             <NavDropdown.Item href="/projects/science" className="navInactive"  >Scientific Computing</NavDropdown.Item>
