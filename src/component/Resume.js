@@ -29,10 +29,10 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
                     <ul className="introduction">
-                        <li><FcElectroDevices /> Power System <b>EMC</b></li>
-                        <li><FcCapacitor /> Large-Scale Power System Simulation based on <b>HPC</b></li>
+                        <li><FcElectroDevices /> Power System <b>Eelectromagnetic Compatibility</b></li>
+                        <li><FcCapacitor /> Large-Scale Power System Simulation based on <b>High Performance Computing</b></li>
                         <li><FcDataEncryption /> Power System <b>Big Data</b> Analysis</li>
-                        <li><FcDam /> <b>AI</b> based Power System <b>Climate Disaster</b> Warning & Mitigation</li>
+                        <li><FcDam /> <b>Artificial Intelligence</b> based Power System <b>Climate Disaster</b> Warning & Mitigation</li>
                     </ul>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</h5>
