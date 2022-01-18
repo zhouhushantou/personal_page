@@ -22,7 +22,7 @@ const Resume = () => {
                         <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
-                        <li><b><FaLinux /> System Programming: </b>gRPC, Pthread, IPC</li>
+                        <li><b><FaLinux /> System Programming: </b>gRPC, pthreads, libvirt, shell</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
                     <br />
