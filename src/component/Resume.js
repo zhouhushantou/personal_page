@@ -36,6 +36,9 @@ const Resume = () => {
                                         From January 2021 to May 2023 (Expected)
                                     </li>
                                     <li>
+                                        Track: Computer Systems
+                                    </li>
+                                    <li>
                                         Completed Courses:
                                         <ul>
                                             <li><a href="https://omscs.gatech.edu/cs-6035-introduction-to-information-security">Introduction to Information Security</a></li>
@@ -74,6 +77,16 @@ const Resume = () => {
                                     </li>
                                     <li>
                                         Thesis Title: "Equivalent Circuit of the Impedance in the Hybrid Model of Transformer Windings"
+                                    </li>
+                                    <li>
+                                        CS Courses:
+                                        <ul>
+                                            <li>Programming in C Language</li>
+                                            <li>Computer Theory and Interface Technology</li>
+                                            <li>Database Principles and Application</li>
+                                            <li>Fundamentals of Web Applications</li>
+                                            <li>Matlab Programming</li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </ul>
