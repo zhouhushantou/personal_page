@@ -5,6 +5,7 @@ import Projects from "./component/Projects"
 import Blogs from "./component/Blogs"
 import Publications from "./component/Publications"
 import Patents from "./component/Patents"
+import Map from "./component/Map"
 import { Container, Col, Row } from "react-bootstrap"
 import {
   HashRouter as Router,
@@ -23,6 +24,7 @@ function App() {
           <Row>
             <Col >
               <Personinfo />
+              <Map />
             </Col>
             <Col sm={9}>
               <Navigation />
