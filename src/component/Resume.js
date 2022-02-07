@@ -18,7 +18,7 @@ const Resume = () => {
                         I living in Hangzhou, China with my family and I like hiking around the mountains near the West Lake.
                     </p>
                     <br />
-                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
+                    {/* <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
                         <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
@@ -26,10 +26,10 @@ const Resume = () => {
                         <li><b><FaLinux /> System Programming: </b>gRPC, pthreads, libvirt, shell</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
-                    <br />
+                    <br /> */}
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
                     <ul className="introduction">
-                        <li><FcElectroDevices /> Power System <b>Eelectromagnetic Compatibility</b></li>
+                        <li><FcElectroDevices /> Power System <b>Electromagnetic Compatibility</b></li>
                         <li><FcCapacitor /> Large-Scale Power System Simulation based on <b>High Performance Computing</b></li>
                         <li><FcDataEncryption /> Power System <b>Big Data</b> Analysis</li>
                         <li><FcDam /> <b>Artificial Intelligence</b> based Power System <b>Climate Disaster</b> Warning & Mitigation</li>
@@ -87,7 +87,7 @@ const Resume = () => {
                                     <li>
                                         Thesis Title: "Equivalent Circuit of the Impedance in the Hybrid Model of Transformer Windings"
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         CS Courses:
                                         <ul>
                                             <li>Programming in C Language</li>
@@ -96,7 +96,7 @@ const Resume = () => {
                                             <li>Fundamentals of Web Applications</li>
                                             <li>Matlab Programming</li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </ul>
                         </li>

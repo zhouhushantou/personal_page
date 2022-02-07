@@ -11,7 +11,7 @@ const Personinfo = () => {
             <img src={logo} width="240" align="middle" />
             <br />
             <br />
-            <h1 className="myname"> Xiangxian Zhou</h1>
+            <h1 className="myname"> Xiangxian (Steven) Zhou</h1>
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
                 D. Eng in EE<br />

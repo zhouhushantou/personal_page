@@ -9,7 +9,7 @@ const Blogs = () => {
                 </Col>
                 <Col sm={11}>
                     <br />
-                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Suggestions for self-learners on the CS MOOCs</h5>
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My experience on the CS MOOCs</h5>
                     <p className="introduction">
                         I am from EE background so I need to fill the gap of my CS knowledge by myself. Funtunately there are plenty of high quality MOOCs on the internet.
                         I list here the courses I have taken and my suggestions to fellow CS self-learners. Hopefully this will be helpful!
