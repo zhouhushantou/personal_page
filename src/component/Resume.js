@@ -18,7 +18,7 @@ const Resume = () => {
                         I living in Hangzhou, China with my family and I like hiking around the mountains near the West Lake.
                     </p>
                     <br />
-                    {/* <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
                         <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
@@ -26,7 +26,7 @@ const Resume = () => {
                         <li><b><FaLinux /> System Programming: </b>gRPC, pthreads, libvirt, shell</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
-                    <br /> */}
+                    <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
                     <ul className="introduction">
                         <li><FcElectroDevices /> Power System <b>Electromagnetic Compatibility</b></li>
@@ -53,13 +53,15 @@ const Resume = () => {
                                             <li><a href="https://omscs.gatech.edu/cs-6035-introduction-to-information-security">Introduction to Information Security</a></li>
                                             <li><a href="https://omscs.gatech.edu/cs-6200-introduction-operating-systems">Introduction to Operating Systems</a></li>
                                             <li><a href="https://omscs.gatech.edu/cs-6601-artificial-intelligence">Artificial Intelligence</a></li>
+                                            <li><a href="https://omscs.gatech.edu/cs-6210-advanced-operating-systems">Advanced Operating Systems</a></li>
+                                            <li><a href="https://omscs.gatech.edu/cs-6250-computer-networks">Computer Networks</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         Ongoing Courses:
                                         <ul>
-                                            <li><a href="https://omscs.gatech.edu/cs-6210-advanced-operating-systems">Advanced Operating Systems</a></li>
-                                            <li><a href="https://omscs.gatech.edu/cs-6250-computer-networks">Computer Networks</a></li>
+                                            <li><a href="https://omscs.gatech.edu/cse-6220-intro-hpc">Intro to High-Performance Computing</a></li>
+                                            <li><a href="https://omscs.gatech.edu/cs-7638-artificial-intelligence-robotics">Artificial Intelligence for Robotics</a></li>
                                         </ul>
                                     </li>
                                 </ul>

@@ -14,9 +14,9 @@ const Personinfo = () => {
             <h1 className="myname"> Xiangxian (Steven) Zhou</h1>
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
-                D. Eng in EE<br />
-                Power System Researcher<br />
-                MSCS student
+                EE PhD<br />
+                MSCS student<br />
+                Power System Researcher
             </p >
 
             <a href="mailto:xzhou411@gatech.edu" className="mylinks"> <AiOutlineMail /> Email</a>

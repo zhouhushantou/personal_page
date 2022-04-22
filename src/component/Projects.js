@@ -87,16 +87,16 @@ const Projects = ({ projectType }) => {
                         <img src={chargeflower} width={400} />
                         <img src={ionflow} width={400} />
 
-                        <br /><br />
+                        {/* <br /><br />
                         <h5 className="sectionHead">Solving Electric Field by using Finite Element Method</h5>
-                        <p>
+                        {/* <p>
                             <a href="https://github.com/zhouhushantou/FEM">
                                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
-                        </p>
+                        </p> 
                         <p className="introduction">I developed this Finite Element Method program to solve static electric field problems.
                             The discretization of the computation space is not included in this program. The example show in this program is about solving the two
                             electrodes electric field problem. This program can be execute by Octave.</p>
-                        <img src={FEM_project} width={800} />
+                        <img src={FEM_project} width={800} /> */}
 
                         <br /><br />
                         <h5 className="sectionHead">Transmission Line Electromagnetic Wave Propagation Demonstration</h5>
