@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/personal_page/static/css/main.ffc2556c.css",
-    "main.js": "/personal_page/static/js/main.8682a080.js",
+    "main.js": "/personal_page/static/js/main.7090032c.js",
     "static/media/squaline.png": "/personal_page/static/media/squaline.f6bbb9f00262f9830694.png",
+    "static/media/logo2.png": "/personal_page/static/media/logo2.d36fda1a564a1c608176.png",
     "static/media/corridor_flash.png": "/personal_page/static/media/corridor_flash.41ed2baa32fcae5c1c66.png",
-    "static/media/logo.png": "/personal_page/static/media/logo.93adaaf5af76c8d9c2ee.png",
     "static/media/wave_dem.mp4": "/personal_page/static/media/wave_dem.7c4f3cef554596a5dbbe.mp4",
     "static/media/charge_flower.jpg": "/personal_page/static/media/charge_flower.d470ac82e0e09437e4ce.jpg",
     "static/media/ion_flow.jpg": "/personal_page/static/media/ion_flow.c6be7bc189c6363af1a2.jpg",
@@ -22,10 +22,10 @@
     "static/media/main3.png": "/personal_page/static/media/main3.bb3250d1356d06078e9e.png",
     "index.html": "/personal_page/index.html",
     "main.ffc2556c.css.map": "/personal_page/static/css/main.ffc2556c.css.map",
-    "main.8682a080.js.map": "/personal_page/static/js/main.8682a080.js.map"
+    "main.7090032c.js.map": "/personal_page/static/js/main.7090032c.js.map"
   },
   "entrypoints": [
     "static/css/main.ffc2556c.css",
-    "static/js/main.8682a080.js"
+    "static/js/main.7090032c.js"
   ]
 }
