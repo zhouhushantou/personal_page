@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap"
-import logo from "../resource/logo.png"
+import logo from "../resource/logo2.png"
 import name_cn from "../resource/name_cn.png"
 import { AiFillGithub, AiOutlineMail, AiFillLinkedin } from 'react-icons/ai';
 import { SiGooglescholar } from 'react-icons/si'
@@ -14,7 +14,7 @@ const Personinfo = () => {
             <h1 className="myname"> Xiangxian (Steven) Zhou</h1>
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
-                EE PhD<br />
+                PhD in EE<br />
                 MSCS student<br />
                 Power System Researcher
             </p >

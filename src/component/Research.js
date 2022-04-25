@@ -12,9 +12,11 @@ import chargeflower from "../resource/corona/charge_flower.jpg"
 import ionflow from "../resource/corona/ion_flow.jpg"
 import squalineFig from "../resource/squaline.png"
 import { Container, Col, Row } from "react-bootstrap"
+import Publications from "./Publications"
+import Patents from "./Patents"
 
-const Projects = ({ projectType }) => {
-    if (projectType === "datascience") {
+const Research = ({ projectType }) => {
+    if (projectType === "projects") {
         return (
             <Container>
                 <Row>
@@ -22,6 +24,27 @@ const Projects = ({ projectType }) => {
                     </Col>
                     <Col sm={11}>
                         <br />
+                        <h5 className="sectionHead">Numerical Simulation of Hybrid AC-DC Corona Discharge</h5>
+                        <p>
+                            <a href="https://ieeexplore.ieee.org/document/6136509">
+                                <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
+                        </p>
+                        <p className="introduction">Accurate modeling and simulation of corona discharge are essential in designing environment-friendly power transmission corridors.
+                            I proposed a FEM/FVM based simulation method for ion flow field from corona discharge. I implemented the proposed simulation method with C++ to
+                            achieve high performance. The triangular mesh and polygon mesh have been used to discretize and solve the FEM and FVM control equations respectively.
+                            The proposed simulation method has proved to be highly efficient and robust, and multiple papers have been published in IEEE journals.</p>
+                        <img src={chargeflower} width={400} />
+                        <img src={ionflow} width={400} />
+
+                        <br />  <br />
+                        <h5 className="sectionHead"> Development of Disaster Warning Backend System</h5>
+                        < p className="introduction"> Squaline can bring strong wind and intense lightning, which pose risk to the power system. I developed a system that downloads the radar reflection
+                            data and numerical weather forecasting data from a remote server and detects if there is strong radar reflection and wind close to the power transmission
+                            lines. If detected, the system will compile a report by using the Docx module in Python and send out the report through SFTP. The data are stored in an
+                            SQLite database and the data are processed with pandas module in Python</p>
+                        < img src={squalineFig} width={700} />
+
+                        <br />  <br />
                         <h5 className="sectionHead">&nbsp;&nbsp;Power Grid Typhoon Risk Analysis</h5>
                         <p>
                             <a href="https://digital-library.theiet.org/content/conferences/10.1049/icp.2020.0041">
@@ -59,34 +82,6 @@ const Projects = ({ projectType }) => {
                             Significant ampacity enhancement was achieved by the application of probabilistic ampacity rating method.</p>
                         <img src={temp_dist} width={650} />
 
-                    </Col>
-                    <Col >
-                    </Col>
-                </Row>
-            </Container>
-        )
-    }
-
-    if (projectType === "science") {
-        return (
-            <Container>
-                <Row>
-                    <Col >
-                    </Col>
-                    <Col sm={11}>
-                        <br />
-                        <h5 className="sectionHead">Numerical Simulation of Hybrid AC-DC Corona Discharge</h5>
-                        <p>
-                            <a href="https://ieeexplore.ieee.org/document/6136509">
-                                <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
-                        </p>
-                        <p className="introduction">Accurate modeling and simulation of corona discharge are essential in designing environment-friendly power transmission corridors.
-                            I proposed a FEM/FVM based simulation method for ion flow field from corona discharge. I implemented the proposed simulation method with C++ to
-                            achieve high performance. The triangular mesh and polygon mesh have been used to discretize and solve the FEM and FVM control equations respectively.
-                            The proposed simulation method has proved to be highly efficient and robust, and multiple papers have been published in IEEE journals.</p>
-                        <img src={chargeflower} width={400} />
-                        <img src={ionflow} width={400} />
-
                         {/* <br /><br />
                         <h5 className="sectionHead">Solving Electric Field by using Finite Element Method</h5>
                         {/* <p>
@@ -98,17 +93,6 @@ const Projects = ({ projectType }) => {
                             electrodes electric field problem. This program can be execute by Octave.</p>
                         <img src={FEM_project} width={800} /> */}
 
-                        <br /><br />
-                        <h5 className="sectionHead">Transmission Line Electromagnetic Wave Propagation Demonstration</h5>
-                        <p>
-                            <a href="https://github.com/zhouhushantou/Wave_propagation_demonstration">
-                                <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
-                        </p>
-                        <p className="introduction">I developed this .NET application to help people understand how the electromagnetic wave are propagate along the
-                            transmission lines. The wave reflection and and refraction in different load and source conditions can be demonstrated in this application.</p>
-
-                        <video width="475" height="442" autoPlay muted src={wave_dem} type="video/mp4"></video>
-
                     </Col>
                     <Col >
                     </Col>
@@ -117,8 +101,7 @@ const Projects = ({ projectType }) => {
         )
     }
 
-
-    if (projectType === "engineer") {
+    if (projectType === "software") {
         return (
             <Container>
                 <Row>
@@ -173,6 +156,17 @@ const Projects = ({ projectType }) => {
                             for overhead transmission lines and static ampacity rating software for power cables. These software are with simple interface which is user friendly.</p>
                         <img src={cable} width={800} />
 
+                        <br /><br />
+                        <h5 className="sectionHead">Transmission Line Electromagnetic Wave Propagation Demonstration</h5>
+                        <p>
+                            <a href="https://github.com/zhouhushantou/Wave_propagation_demonstration">
+                                <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="View on GitHub" /></a>
+                        </p>
+                        <p className="introduction">I developed this .NET application to help people understand how the electromagnetic wave are propagate along the
+                            transmission lines. The wave reflection and and refraction in different load and source conditions can be demonstrated in this application.</p>
+
+                        <video width="475" height="442" autoPlay muted src={wave_dem} type="video/mp4"></video>
+
                     </Col>
                     <Col >
                     </Col>
@@ -180,33 +174,41 @@ const Projects = ({ projectType }) => {
             </Container>
         )
     }
-    if (projectType === "webapp") {
+    // if (projectType === "webapp") {
+    //     return (
+    //         <Container>
+    //             <Row>
+    //                 <Col >
+    //                 </Col>
+    //                 <Col sm={11}>
+    //                     <br />
+    //                     <h5 className="sectionHead"> Learning Letters and Numbers on Keyboard for Kids</h5>
+    //                     < p className="introduction"> I want to teach my daughter the pronounciation of the letters and numbers on the keyboard but didn't found any existing web
+    //                         page that can serve this purpose. So I built this very simple webpage.I downloaded the sound and picture of the letters from internet
+    //                         and forget the source address. If anyone known the source, please tell me and I will add reference to it.</p>
+    //                     < img src={letterSound} width={800} />
+    //                 </Col>
+    //                 <Col >
+    //                 </Col>
+    //             </Row>
+    //         </Container>
+    //     )
+    // }
+
+    if (projectType === "publications") {
         return (
-            <Container>
-                <Row>
-                    <Col >
-                    </Col>
-                    <Col sm={11}>
-                        <br />
-                        <h5 className="sectionHead"> Development of Disaster Warning Backend System</h5>
-                        < p className="introduction"> Squaline can bring strong wind and intense lightning, which pose risk to the power system. I developed a system that downloads the radar reflection
-                            data and numerical weather forecasting data from a remote server and detects if there is strong radar reflection and wind close to the power transmission
-                            lines. If detected, the system will compile a report by using the Docx module in Python and send out the report through SFTP. The data are stored in an
-                            SQLite database and the data are processed with pandas module in Python</p>
-                        < img src={squalineFig} width={700} />
-                        <br />  <br />
-                        <h5 className="sectionHead"> Learning Letters and Numbers on Keyboard for Kids</h5>
-                        < p className="introduction"> I want to teach my daughter the pronounciation of the letters and numbers on the keyboard but didn't found any existing web
-                            page that can serve this purpose. So I built this very simple webpage.I downloaded the sound and picture of the letters from internet
-                            and forget the source address. If anyone known the source, please tell me and I will add reference to it.</p>
-                        < img src={letterSound} width={800} />
-                    </Col>
-                    <Col >
-                    </Col>
-                </Row>
-            </Container>
+            <Publications />
+        )
+    }
+
+    if (projectType === "patents") {
+        return (
+            <Patents />
         )
     }
 }
 
-export default Projects
+
+
+
+export default Research

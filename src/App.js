@@ -1,10 +1,9 @@
 import Navigation from "./component/Navigation";
 import Personinfo from "./component/Personinfo"
 import Resume from "./component/Resume"
-import Projects from "./component/Projects"
+import Research from "./component/Research"
 import Blogs from "./component/Blogs"
-import Publications from "./component/Publications"
-import Patents from "./component/Patents"
+import Projects from "./component/CSProjects";
 import Map from "./component/Map"
 import { Container, Col, Row } from "react-bootstrap"
 import {
@@ -32,26 +31,23 @@ function App() {
                 <Route exact path="/">
                   <Resume />
                 </Route>
-                <Route exact path="/publications" >
-                  <Publications />
-                </Route>
                 <Route exact path="/blogs">
                   <Blogs />
                 </Route>
-                <Route exact path="/patents">
-                  <Patents />
+                <Route exact path="/projects">
+                  <Projects />
                 </Route>
-                <Route exact path="/projects/webapp">
-                  <Projects projectType="webapp" />
+                <Route exact path="/research/projects">
+                  <Research projectType="projects" />
                 </Route>
-                <Route exact path="/projects/datascience">
-                  <Projects projectType="datascience" />
+                <Route exact path="/research/software">
+                  <Research projectType="software" />
                 </Route>
-                <Route exact path="/projects/science">
-                  <Projects projectType="science" />
+                <Route exact path="/research/publications">
+                  <Research projectType="publications" />
                 </Route>
-                <Route exact path="/projects/engineer">
-                  <Projects projectType="engineer" />
+                <Route exact path="/research/patents">
+                  <Research projectType="patents" />
                 </Route>
               </Switch>
 

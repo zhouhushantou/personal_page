@@ -23,7 +23,7 @@ const Resume = () => {
                         <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
-                        <li><b><FaLinux /> System Programming: </b>gRPC, pthreads, libvirt, shell</li>
+                        <li><b><FaLinux /> System Programming: </b>gRPC, openMP, MPI, pthreads, libvirt</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
                     <br />
@@ -89,7 +89,7 @@ const Resume = () => {
                                     <li>
                                         Thesis Title: "Equivalent Circuit of the Impedance in the Hybrid Model of Transformer Windings"
                                     </li>
-                                    {/* <li>
+                                    <li>
                                         CS Courses:
                                         <ul>
                                             <li>Programming in C Language</li>
@@ -98,7 +98,7 @@ const Resume = () => {
                                             <li>Fundamentals of Web Applications</li>
                                             <li>Matlab Programming</li>
                                         </ul>
-                                    </li> */}
+                                    </li>
                                 </ul>
                             </ul>
                         </li>
@@ -120,7 +120,7 @@ const Resume = () => {
                             <ul>
                                 <li><b>Tech Director</b> of Power Transmission Technology Unit
                                     <ul>
-                                        <li>From August 2020 to present</li>
+                                        <li>From August 2020 to Feburary 2022</li>
                                         <li>Job description:
                                             <ul>
                                                 <li>Leading a small but elite research engineer team</li>
