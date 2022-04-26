@@ -30,11 +30,13 @@ const Projects = ({ projectType }) => {
                         there is at least one write access is happening.</p>
                     <img src={distributed_file} width={800} />
 
-                    {/* <br /> <br />
+                    <br /> <br />
                     <h5 className="sectionHead">Proxy and Cache Servers</h5>
                     <p className="introduction">I designed a proxy and cache server in a OMSCS's course project. The proxy server will listening to the incoming
-                        requests from clients and then pass the file names to cache server through message queue. </p>
-                    <img src={web_proxy} width={700} /> */}
+                        requests from clients and then pass the file names to cache server through message queue. The files requested by clients are passed from
+                        cache server to proxy server though system V shared memory. A special data structure is designed for the shared memory which will coordinate
+                        the access to the shared memory between the proxy server and cache server.</p>
+                    <img src={web_proxy} width={700} />
 
                 </Col>
                 <Col >
