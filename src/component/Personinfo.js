@@ -30,10 +30,11 @@ const Personinfo = () => {
 
             <br />
             <p className="introduction"> Favorite Quote:</p>
-            <p className="introduction">"In the face of power, I would always be at a disadvantage, I knew, but I was a born contrarian, and there’s no other way for me to
-                live except by taking an oppositional stance.”</p>
+            {/* <p className="introduction">"In the face of power, I would always be at a disadvantage, I knew, but I was a born contrarian, and there’s no other way for me to
+                live except by taking an oppositional stance.”</p> */}
+            <p className="introduction"> “Because, son. We were born Americans, but in the wrong place.”</p>
             <p className="introduction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Ai Weiwei </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Peter Schramm </p>
             <p className="introduction"> Location:</p>
         </Container >
     )
