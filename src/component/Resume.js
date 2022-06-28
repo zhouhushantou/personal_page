@@ -1,5 +1,5 @@
 import { Container, Col, Row } from "react-bootstrap"
-import { FaDatabase, FaLinux, FaReact, FaPython } from 'react-icons/fa';
+import { FaDatabase, FaLinux, FaReact, FaPython, FaTools } from 'react-icons/fa';
 import { FcElectroDevices, FcDataEncryption, FcCapacitor, FcDam } from 'react-icons/fc';
 import { SiNumpy } from 'react-icons/si';
 const Resume = () => {
@@ -12,32 +12,33 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</h5>
                     <p className="introduction">
-                        I am a <a href="https://scholar.google.com/citations?user=jEqFraUAAAAJ&hl=en">power system researcher</a> specialized in high voltage power transmission.
-                        I am a life learner and at present proudly being a student of GT's <a href="https://omscs.gatech.edu/">OMSCS program</a> specialized in computer systems.
+                        I am a student of GT's <a href="https://omscs.gatech.edu/">OMSCS program</a> specialized in computer systems.
+                        I am expected to graduate with a MSCS degree in May 2023.
                         I have broad experience in scientific computing and engineering simulation and enjoy solving real world problems through coding.
-                        I living in Hangzhou, China with my family and I like hiking around the mountains near the West Lake.
+                        I living in Milpitas, CA with my family and I like hiking and cooking.
                     </p>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
-                        <li><b><FaPython /> Languages: </b>Python, JavaScript, C/C++, Java</li>
+                        <li><b><FaPython /> Languages: </b>Python, C/C++,JavaScript, Java</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
-                        <li><b><FaLinux /> System Programming: </b>gRPC, openMP, MPI, pthreads, libvirt</li>
+                        <li><b><FaTools /> Tools:</b> Shell, SSH, vscode, Docker, Virtualbox, WSL</li>
+                        <li><b><FaLinux /> System Programming: </b>gRPC, CUDA, openMP, MPI, pthreads, libvirt</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
                     <br />
-                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
+                    {/* <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Interests</h5>
                     <ul className="introduction">
                         <li><FcElectroDevices /> Power System <b>Electromagnetic Compatibility</b></li>
                         <li><FcCapacitor /> Large-Scale Power System Simulation based on <b>High Performance Computing</b></li>
                         <li><FcDataEncryption /> Power System <b>Big Data</b> Analysis</li>
                         <li><FcDam /> <b>Artificial Intelligence</b> based Power System <b>Climate Disaster</b> Warning & Mitigation</li>
                     </ul>
-                    <br />
+                    <br /> */}
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</h5>
                     <ul className="introduction">
-                        <li><b><a href="https://www.gatech.edu/">Georgia Institute of Technology</a></b>
+                        <li><b><a href="https://www.gatech.edu/">Georgia Institute of Technology</a></b>&nbsp;&nbsp; Altlanta, GA
                             <ul>
                                 <li><b>Master of Science in Computer Science</b> </li>
                                 <ul>
@@ -48,7 +49,7 @@ const Resume = () => {
                                         Track: Computer Systems
                                     </li>
                                     <li>
-                                        Completed Courses:
+                                        Completed Courses (GPA: 4.0):
                                         <ul>
                                             <li><a href="https://omscs.gatech.edu/cs-6035-introduction-to-information-security">Introduction to Information Security</a></li>
                                             <li><a href="https://omscs.gatech.edu/cs-6200-introduction-operating-systems">Introduction to Operating Systems</a></li>
@@ -68,9 +69,9 @@ const Resume = () => {
                             </ul>
                         </li>
                         <br />
-                        <li> <b><a href="https://english.ncepu.edu.cn/">North China Electric Power University</a></b>
+                        <li> <b><a href="https://english.ncepu.edu.cn/">North China Electric Power University</a></b>&nbsp;&nbsp;Beijing&Baoding, China
                             <ul>
-                                <li><b>Doctor of Engineering in Electrical Theory and New Technology</b>
+                                <li><b>PhD in Electrical Engineering</b>
                                     <ul>
                                         <li>
                                             From Sepetember 2008 to March 2013
@@ -96,7 +97,7 @@ const Resume = () => {
                                             <li>Computer Theory and Interface Technology</li>
                                             <li>Database Principles and Application</li>
                                             <li>Fundamentals of Web Applications</li>
-                                            <li>Matlab Programming</li>
+                                            {/* <li>Matlab Programming</li> */}
                                         </ul>
                                     </li>
                                 </ul>
@@ -104,19 +105,31 @@ const Resume = () => {
                         </li>
                     </ul>
                     <br />
-                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informal Education</h5>
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learnings</h5>
                     <ul className="introduction">
-                        <li> <b><a href="https://www.cfainstitute.org/en/">CFA Institute</a></b>
+                        <li> <b>MOOCs</b>
                             <ul>
-                                <li>Passed <b>CFA level II</b> Exam in 2019</li>
-                                <li>Passed <b>CFA level I</b> Exam  in 2018</li>
+                                <li><a href="https://sp21.datastructur.es/">CS61b Data Structure </a>&nbsp;&nbsp; UC Berkeley,&nbsp;2020</li>
+                                <li><a href="https://csapp.cs.cmu.edu/">Computer Systems: A Programmer's Perspective</a>&nbsp;&nbsp;CMU,&nbsp;2020</li>
+                                <li><a href="https://online.stanford.edu/courses/soe-ydatabases-databases">Databases</a>&nbsp;&nbsp;Stanford,&nbsp;2020</li>
+                                <li><a href="https://missing.csail.mit.edu/2020/">Missing semester in CS</a>&nbsp;&nbsp;MIT,&nbsp;2021</li>
+                                <li><a href="https://fullstackopen.com/en/">Deep Dive Into Modern Web Development</a>&nbsp;&nbsp;University of Helsinki
+                                    ,&nbsp;2022 </li>
                             </ul>
                         </li>
+                        <br />
+                        <li> <b><a href="https://www.cfainstitute.org/en/">CFA Institute</a></b>
+                            <ul>
+                                <li>Passed <b>CFA level II</b> Exam,&nbsp;2019</li>
+                                <li>Passed <b>CFA level I</b> Exam,&nbsp;2018</li>
+                            </ul>
+                        </li>
+
                     </ul>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience</h5>
                     <ul>
-                        <li className="introduction"><b>State Grid Zhejiang Electric Power Research Institute</b>
+                        <li className="introduction"><b>State Grid Zhejiang Electric Power Research Institute</b>&nbsp;&nbsp; Hangzhou, China
                             <ul>
                                 <li><b>Tech Director</b> of Power Transmission Technology Unit
                                     <ul>

@@ -16,7 +16,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = () => {
-    const position = [30.45, 120.1]
+    const position = [37.56, -121.92]
     return (
         <MapContainer height={100} center={position} zoom={7} scrollWheelZoom={false} style={{ height: '20vh', width: '100wh' }} >
             <TileLayer
