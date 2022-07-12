@@ -15,7 +15,7 @@ const Personinfo = () => {
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
                 MSCS student<br />
-                PhD in EE
+                D. Eng in EE
             </p >
 
             <a href="mailto:xzhou411@gatech.edu" className="mylinks"> <AiOutlineMail /> Email</a>

@@ -20,10 +20,10 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
-                        <li><b><FaPython /> Languages: </b>Python, C/C++,JavaScript, Java</li>
+                        <li><b><FaPython /> Languages: </b>Python, C/C++,JavaScript, Java, SQL</li>
                         <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB</li>
-                        <li><b><FaTools /> Tools:</b> Shell, SSH, vscode, Docker, Virtualbox, WSL</li>
+                        <li><b><FaTools /> Tools:</b> Shell, SSH, Git, Linux, vscode, Docker, Virtualbox, WSL</li>
                         <li><b><FaLinux /> System Programming: </b>gRPC, CUDA, openMP, MPI, pthreads, libvirt</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
@@ -71,7 +71,7 @@ const Resume = () => {
                         <br />
                         <li> <b><a href="https://english.ncepu.edu.cn/">North China Electric Power University</a></b>&nbsp;&nbsp;Beijing&Baoding, China
                             <ul>
-                                <li><b>PhD in Electrical Engineering</b>
+                                <li><b>Doctor of Engineering in Electrical Theory and New Technology</b>
                                     <ul>
                                         <li>
                                             From Sepetember 2008 to March 2013
@@ -148,7 +148,7 @@ const Resume = () => {
                                         <li>Job description:
                                             <ul>
                                                 <li>Conduct power transmission technology research</li>
-                                                <li>Design and development of power system disater warning systems</li>
+                                                <li>Design and development of power system disaster warning systems</li>
                                                 <li>Investigation and analysis of power system faults </li>
                                             </ul>
                                         </li>

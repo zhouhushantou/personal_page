@@ -7,7 +7,8 @@ import ef_line from "../resource/Hybrid_field_project/ef_line.PNG"
 import cable from "../resource/Ampacity_rating_project/cable.PNG"
 import lineSag from "../resource/Line_sag_project/main.PNG"
 import lightning from "../resource/Lighting_calculation_project/main3.png"
-import letterSound from "../resource/Letter_sound_project/main_page.PNG"
+import labview1 from "../resource/labview1.png"
+import labview2 from "../resource/labview2.png"
 import chargeflower from "../resource/corona/charge_flower.jpg"
 import ionflow from "../resource/corona/ion_flow.jpg"
 import squalineFig from "../resource/squaline.png"
@@ -43,6 +44,19 @@ const Research = ({ projectType }) => {
                             lines. If detected, the system will compile a report by using the Docx module in Python and send out the report through SFTP. The data are stored in an
                             SQLite database and the data are processed with pandas module in Python</p>
                         < img src={squalineFig} width={700} />
+
+                        <br />  <br />
+                        <h5 className="sectionHead"> Lightning Electromagnetic Wave Acquisition and Processing System</h5>
+                        <p>
+                            <a href="https://ieeexplore.ieee.org/document/5475584">
+                                <img src="https://img.shields.io/badge/PDF-Open_Research_Paper-blue?logo=adobe-acrobat-reader&amp;logoColor=white" alt="Open Research Paper" /></a>
+                        </p>
+                        < p className="introduction"> I developed a LabView based lightning electromagnetic wave acquisition and processing system. This system can acquire two
+                            channels of magnetic field signal and one channel of electric field signal simultaneously. The sampling rate of the system can reach up to 20 MS/s.
+                            This system can process the signal fetched from the antenna without any assistance from the hardware based signal processing equipment,
+                            which greatly saved the cost while preserve the accuracy. .</p>
+                        < img src={labview1} width={400} />
+                        < img src={labview2} width={400} />
 
                         <br />  <br />
                         <h5 className="sectionHead">&nbsp;&nbsp;Power Grid Typhoon Risk Analysis</h5>
