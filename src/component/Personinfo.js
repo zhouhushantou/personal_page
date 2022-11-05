@@ -14,13 +14,14 @@ const Personinfo = () => {
             <h1 className="myname"> Xiangxian (Steven) Zhou</h1>
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
-                MSCS student<br />
-                D. Eng in EE
+                Power System Developer<br />
+                D. Eng in EE<br />
+                MSCS student
             </p >
 
-            <a href="mailto:xzhou411@gatech.edu" className="mylinks"> <AiOutlineMail /> Email</a>
+            <a href="mailto:xiangxianzhou@gmail.com" className="mylinks"> <AiOutlineMail /> Email</a>
             <br />
-            <a href="https://linkedin.com/in/xiangxian-zhou-088246a6" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
+            <a href="https://linkedin.com/in/xiangxian-zhou" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
             <br />
             <a href="https://github.com/zhouhushantou" className="mylinks" ><AiFillGithub /> GitHub</a>
             <br />
@@ -31,9 +32,9 @@ const Personinfo = () => {
             <p className="introduction"> Favorite Quotes:</p>
             {/* <p className="introduction">"In the face of power, I would always be at a disadvantage, I knew, but I was a born contrarian, and there’s no other way for me to
                 live except by taking an oppositional stance.”</p> */}
-            {/* <p className="introduction"> “Because, son. We were born Americans, but in the wrong place.”</p>
+            <p className="introduction"> “Because, son. We were born Americans, but in the wrong place.”</p>
             <p className="introduction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;-by Peter Schramm </p> */}
+                &nbsp;&nbsp;&nbsp;&nbsp;-by Peter Schramm </p>
             <p className="introduction">"I am the master of my fate, I am the captain of my soul."</p>
             <p className="introduction">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-by William Ernest Henley </p>
             <p className="introduction"> “Liberty and love. These two I must have. For love ,I will sacrifice my life. For liberty, I will sacrifice my love.”</p>

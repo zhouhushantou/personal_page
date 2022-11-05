@@ -16,7 +16,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const Map = () => {
-    const position = [37.56, -121.92]
+    const position = [35.7796, -78.6382]
     return (
         <MapContainer height={100} center={position} zoom={7} scrollWheelZoom={false} style={{ height: '20vh', width: '100wh' }} >
             <TileLayer
@@ -25,7 +25,7 @@ const Map = () => {
             />
             <Marker position={position}>
                 <Popup>
-                    I live in Hangzhou
+                    I live in Raleigh
                 </Popup>
             </Marker>
         </MapContainer >
