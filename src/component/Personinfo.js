@@ -11,17 +11,17 @@ const Personinfo = () => {
             <img src={logo} width="240" align="middle" />
             <br />
             <br />
-            <h1 className="myname"> Xiangxian (Steven) Zhou</h1>
+            <h1 className="myname"> Steven Zhou</h1>
             <img src={name_cn} width="120" align="middle" />
             <p className="introduction">
-                Power System Developer<br />
-                D. Eng in EE<br />
-                MSCS student
+                Power System Researcher<br />
+                EE PhD<br />
+                MSCS
             </p >
 
             <a href="mailto:xiangxianzhou@gmail.com" className="mylinks"> <AiOutlineMail /> Email</a>
             <br />
-            <a href="https://linkedin.com/in/xiangxian-zhou" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
+            <a href="linkedin.com/in/xiangxian-zhou" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
             <br />
             <a href="https://github.com/zhouhushantou" className="mylinks" ><AiFillGithub /> GitHub</a>
             <br />

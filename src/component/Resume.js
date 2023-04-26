@@ -1,6 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap"
 import { FaDatabase, FaLinux, FaReact, FaPython, FaTools } from 'react-icons/fa';
-import { FcElectroDevices, FcDataEncryption,FcCircuit, FcCapacitor, FcDam } from 'react-icons/fc';
+import { FcElectroDevices, FcDataEncryption, FcCircuit, FcCapacitor, FcDam } from 'react-icons/fc';
 import { SiNumpy } from 'react-icons/si';
 const Resume = () => {
     return (
@@ -12,17 +12,15 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</h5>
                     <p className="introduction">
-                        I work as a Senior Engineer specialize in power system software research and development.
-                        I am also a student of GT's <a href="https://omscs.gatech.edu/">OMSCS program</a> specialized in computer systems.
-                        I am expected to graduate with a MSCS degree in May 2023.
+                        I work as a Senior Engineer specialize in power system software design and development.
                         I have broad experience in scientific computing and engineering simulation and enjoy solving real world problems through coding.
-                        I living in Raleigh, NC with my family and I like coding, hiking and cooking.
+                        I living happily in Raleigh, NC with my family and I like coding, hiking and cooking.
                     </p>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
-                        <li><b><FaPython /> Languages: </b>Python, C/C++,Golang, JavaScript, SQL, Matlab,VB6</li>
-                        <li><b><FaReact /> Web dev: </b>CSS, HTML, React, Node.js, Express, Redux, Bootstrap UI</li>
+                        <li><b><FaPython /> Languages: </b>Python, C/C++, JavaScript, SQL, Julia, Golang, Matlab, VB6</li>
+                        <li><b><FaReact /> App dev: </b>Electron, Flask, React, D3.js, Node.js, Restful API, CSS, HTML, Bootstrap UI</li>
                         <li><b><FaDatabase /> Database: </b>SQLite, MongoDB, MS Access</li>
                         <li><b><FaTools /> Tools:</b> Shell script, SSH, Git, Linux, vscode, Docker, Virtualbox, WSL</li>
                         <li><b><FaLinux /> System Programming: </b>gRPC, CUDA, openMP, MPI, pthreads, libvirt</li>
@@ -50,20 +48,16 @@ const Resume = () => {
                                         <li>
                                             Completed Courses:
                                             <ul>
-                                                <li><a href="https://omscs.gatech.edu/cs-6035-introduction-to-information-security">Introduction to Information Security</a></li>
-                                                <li><a href="https://omscs.gatech.edu/cs-6200-introduction-operating-systems">Introduction to Operating Systems</a></li>
+                                                <li><a href="https://omscs.gatech.edu/cs-6035-introduction-to-information-security">Intro to Information Security</a></li>
+                                                <li><a href="https://omscs.gatech.edu/cs-6200-introduction-operating-systems">Graduate Intro to Operating Systems</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cs-6601-artificial-intelligence">Artificial Intelligence</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cs-6210-advanced-operating-systems">Advanced Operating Systems</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cs-6250-computer-networks">Computer Networks</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cse-6220-intro-hpc">Intro to High-Performance Computing</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cs-7638-artificial-intelligence-robotics">Artificial Intelligence for Robotics</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            Ongoing Courses:
-                                            <ul>
                                                 <li><a href="https://drive.google.com/file/d/1CmAA1pinmbaOIjIojjs3vCLsYVzTzLo_/view">Deterministic Optimization</a></li>
                                                 <li><a href="https://omscs.gatech.edu/cs-7646-machine-learning-trading">Machine Learning for Trading</a></li>
+                                                <li><a href="https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms">Intro to Graduate Algorithms</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -106,6 +100,7 @@ const Resume = () => {
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learnings</h5>
                     <ul className="introduction">
                         <li> <b>MOOCs</b>
+                            Completed Courses:
                             <ul>
                                 <li><a href="https://sp21.datastructur.es/">CS61b Data Structure </a>&nbsp;&nbsp; UC Berkeley,&nbsp;2020</li>
                                 <li><a href="https://csapp.cs.cmu.edu/">Computer Systems: A Programmer's Perspective</a>&nbsp;&nbsp;CMU,&nbsp;2020</li>
@@ -113,6 +108,10 @@ const Resume = () => {
                                 <li><a href="https://missing.csail.mit.edu/2020/">Missing semester in CS</a>&nbsp;&nbsp;MIT,&nbsp;2021</li>
                                 <li><a href="https://fullstackopen.com/en/">Deep Dive Into Modern Web Development</a>&nbsp;&nbsp;University of Helsinki
                                     ,&nbsp;2022 </li>
+                            </ul>
+                            Ongoing Courses:
+                            <ul>
+                                <li><a href="https://pdos.csail.mit.edu/6.824/schedule.html">Distributed Systems</a>&nbsp;&nbsp; MIT,&nbsp;2023</li>
                             </ul>
                         </li>
                         <br />
