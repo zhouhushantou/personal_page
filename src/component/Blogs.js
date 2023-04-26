@@ -1,6 +1,7 @@
 import { Container, Col, Row, Table } from "react-bootstrap"
 import { FaDatabase, FaReact, FaJava, FaMemory } from 'react-icons/fa';
 import { FiGitBranch, FiCpu } from 'react-icons/fi';
+import MapHistory from "./MapHistory";
 const Blogs = () => {
     return (
         <Container>
@@ -78,6 +79,19 @@ const Blogs = () => {
                             </tr>
                         </tbody>
                     </Table>
+                </Col>
+                <Col >
+                </Col>
+            </Row>
+            <Row>
+                <Col >
+                </Col>
+                <Col sm={11}>
+                    <br />
+                    <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I like to see the world</h5>
+                    <MapHistory />
+                    <br />
+                    <br />
                 </Col>
                 <Col >
                 </Col>
