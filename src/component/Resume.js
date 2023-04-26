@@ -99,7 +99,7 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learnings</h5>
                     <ul className="introduction">
-                        <li> <b>MOOCs</b>
+                        <li> <b>MOOCs</b><br />
                             Completed Courses:
                             <ul>
                                 <li><a href="https://sp21.datastructur.es/">CS61b Data Structure </a>&nbsp;&nbsp; UC Berkeley,&nbsp;2020</li>
