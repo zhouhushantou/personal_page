@@ -21,7 +21,7 @@ const Personinfo = () => {
 
             <a href="mailto:xiangxianzhou@gmail.com" className="mylinks"> <AiOutlineMail /> Email</a>
             <br />
-            <a href="linkedin.com/in/xiangxian-zhou" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
+            <a href="https://www.linkedin.com/in/xiangxian-zhou/" className="mylinks"><AiFillLinkedin /> LinkedIn</a>
             <br />
             <a href="https://github.com/zhouhushantou" className="mylinks" ><AiFillGithub /> GitHub</a>
             <br />
