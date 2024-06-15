@@ -125,7 +125,7 @@ const Resume = () => {
                     <ul>
                         <li className="introduction"><b>Enverus</b>&nbsp;&nbsp; Remote
                             <ul>
-                                <b>Senior Electricity Market Optimization Engineer</b>&nbsp;(Aug 2022 to Jun 2024)
+                                <b>Senior Electricity Market Optimization Engineer</b>&nbsp;(Jun 2024 to present)
                                 <ul>
                                     <li>Power Market Software development.</li>
                                 </ul>
