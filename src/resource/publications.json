@@ -541,7 +541,7 @@
   },
   {
     "Authors": "Wang, Zhenguo; Li, Te; Wang, Shaohua; Zhou, Xiangxian; Zhou, Luyao; Ni, Linna;",
-    "Title": "Evaluation of the Protective Performance of the Lightning Arrester for the Lightning Shielding Failure of $\\pm 800\\mathrm {kV} $ Yibin-Jinhua UHVDC Transmission Line",
+    "Title": "Evaluation of the Protective Performance of the Lightning Arrester for the Lightning Shielding Failure of $\\pm 800\\mathrm kV $ Yibin-Jinhua UHVDC Transmission Line",
     "Publication": "2020 IEEE International Conference on High Voltage Engineering and Application (ICHVE)",
     "Volume": "",
     "Number": "",
@@ -728,5 +728,65 @@
     "Pages": "231-234",
     "Year": 2021,
     "Publisher": "IEEE"
+  },
+  {
+    "Title": "Flexible Capacity Expansion Planning for a Decarbonized Market",
+    "Authors": "Jinxiang Zhu; Steven Zhou; Hongyan Li; Alexandre Oudalov; Sebastian Aparicio",
+    "Publication": "Cigre Paris Session 2024",
+    "Year": 2024,
+    "Publisher": "Cigre",
+    "Volume": "",
+    "Number": "",
+    "Pages": ""
+  },
+  {
+    "Title": "Analysis of Lightning Performance of 220kV and above Overhead Transmission Lines with Surge Arresters",
+    "Authors": "Zhou, Xiangxian;  Wang, Zhengguo Wang Shaohua, Liu Bin, Liu Yan et al",
+    "Publication": "2021 IEEE 3rd International Conference on Circuits and Systems (ICCS)",
+    "Pages": "231-234",
+    "Year": 2021,
+    "Publisher": "IEEE",
+    "Volume": "",
+    "Number": ""
+  },
+  {
+    "Title": "Characteristics of faluts of high voltage overhead transmission lines caused by icing in Zhejiang province",
+    "Authors": "Wang, Zhenguo; Zhou, Xiangxian; Liu Li and Ni Linna",
+    "Publication": "2021 International Conference on Advanced Electrical Equipment and Reliable Operation (AEERO)",
+    "Pages": "1-5",
+    "Year": 2021,
+    "Publisher": "IEEE",
+    "Volume": "",
+    "Number": ""
+  },
+  {
+    "Title": "A Review of Measuring Methods for Corona Current Pulses",
+    "Authors": "Wang Zhenguo,  Ni Linna; Zhou Xiangxian; Li Te, Wu Xuxiang and Gao, Qi and Ma, Yifeng",
+    "Publication": "2022 IEEE 4th International Conference on Circuits and Systems (ICCS)",
+    "Pages": "65-69",
+    "Year": 2022,
+    "Publisher": "IEEE",
+    "Volume": "",
+    "Number": ""
+  },
+  {
+    "Title": "An Overview on Characteristics Tendency and Prediction Technology of Natural Disasters in Zhejiang Power Grid",
+    "Authors": "Xiangxian Zhou; Li Liu; Shaohua Wang and others",
+    "Publication": "Zhejiang Electric Power",
+    "Pages": "1-10",
+    "Year": 2021,
+    "Publisher": "",
+    "Volume": 40,
+    "Number": 5
+  },
+  {
+    "Title": "Capacity contributions of Southern Oregon offshore wind to the Pacific Northwest and California",
+    "Authors": "Douville Travis C; Steven Zhou; and Zhu Jinxiang; and Severy Mark",
+    "Publication": "The Electricity Journal",
+    "Pages": "",
+    "Year": 2024,
+    "Publisher": "Elsevier",
+    "Volume": "",
+    "Number": ""
   }
 ]

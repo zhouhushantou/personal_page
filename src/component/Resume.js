@@ -12,17 +12,17 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</h5>
                     <p className="introduction">
-                        I work as a Senior Engineer specialize in power system software design and development.
+                        I work in power market software design and development.
                         I have broad experience in scientific computing and engineering simulation and enjoy solving real world problems through coding.
-                        I living happily in Raleigh, NC with my family and I like coding, hiking and cooking.
+                        I living happily in Raleigh, NC with my family and I like hiking, kayaking and cooking.
                     </p>
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skill Set</h5>
                     <ul className="introduction">
                         <li><b><FaPython /> Languages: </b>Python, C/C++, JavaScript, SQL, Julia, Golang, Matlab, VB6</li>
                         <li><b><FaReact /> App dev: </b>Electron, Flask, React, D3.js, Node.js, Restful API, CSS, HTML, Bootstrap UI</li>
-                        <li><b><FaDatabase /> Database: </b>SQLite, MongoDB, MS Access</li>
-                        <li><b><FaTools /> Tools:</b> Shell script, SSH, Git, Linux, vscode, Docker, Virtualbox, WSL</li>
+                        <li><b><FaDatabase /> Database: </b>AWS S3, SQLite, MongoDB, MS Access</li>
+                        <li><b><FaTools /> Tools:</b> Shell script, SSH, Git,Kubernetes, AWS EKS, Linux, vscode, Docker, Virtualbox, WSL</li>
                         <li><b><FaLinux /> System Programming: </b>gRPC, CUDA, openMP, MPI, pthreads, libvirt</li>
                         <li><b><SiNumpy /> Data Science: </b>Numpy, Pandas, Matplotlib, Geopandas, sciKit-learn</li>
                     </ul>
@@ -108,10 +108,7 @@ const Resume = () => {
                                 <li><a href="https://missing.csail.mit.edu/2020/">Missing semester in CS</a>&nbsp;&nbsp;MIT,&nbsp;2021</li>
                                 <li><a href="https://fullstackopen.com/en/">Deep Dive Into Modern Web Development</a>&nbsp;&nbsp;University of Helsinki
                                     ,&nbsp;2022 </li>
-                            </ul>
-                            Ongoing Courses:
-                            <ul>
-                                <li><a href="https://pdos.csail.mit.edu/6.824/schedule.html">Distributed Systems</a>&nbsp;&nbsp; MIT,&nbsp;2023</li>
+                                <li><a href="https://devopswithkubernetes.com/">DevOps with Kubernetes</a>&nbsp;&nbsp; University of Helsinki,&nbsp;2024</li>
                             </ul>
                         </li>
                         <br />
@@ -126,62 +123,32 @@ const Resume = () => {
                     <br />
                     <h5 className="sectionHead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience</h5>
                     <ul>
+                        <li className="introduction"><b>Enverus</b>&nbsp;&nbsp; Remote
+                            <ul>
+                                <b>Senior Electricity Market Optimization Engineer</b>&nbsp;(Aug 2022 to Jun 2024)
+                                <ul>
+                                    <li>Power Market Software development.</li>
+                                </ul>
+                            </ul>
+                        </li>
                         <li className="introduction"><b>Hitachi Energy</b>&nbsp;&nbsp; Raleigh, NC
                             <ul>
-                                <b>Senior Engineer</b>&nbsp;(Aug 2022 to Present)
+                                <b>Senior Engineer</b>&nbsp;(Aug 2022 to Jun 2024)
                                 <ul>
-                                    <li>Power system software development.</li>
+                                    <li>Production cost simulation software development.</li>
+                                    <li>Power market planning consulting.</li>
                                 </ul>
                             </ul>
                         </li>
                         <li className="introduction"><b>State Grid Zhejiang Electric Power Research Institute</b>&nbsp;&nbsp; Hangzhou, China
                             <ul>
                                 <li><b>Research Engineer</b>&nbsp;(Aug 2013 to Feb 2022)
-                                    {/* <ul> */}
-                                    {/* <li></li> */}
-                                    {/* <li>Job description: */}
                                     <ul>
                                         <li>Conduct power transmission technology research, published over 40 research papers and 10 patents. </li>
                                         <li>Design and development of power system disaster warning systems and engineering software. </li>
                                         <li>Conduct power system operation data analysis and visualization.</li>
                                     </ul>
-                                    {/* </li> */}
-                                    {/* </ul> */}
                                 </li>
-                                {/* <li><b>Tech Director</b> of Power Transmission Technology Unit
-                                    <ul>
-                                        <li>From August 2020 to Feburary 2022</li>
-                                        <li>Job description:
-                                            <ul>
-                                                <li>Leading a small but elite research engineer team</li>
-                                                <li>Propose, conduct and manage research projects</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><b>Senior Engineer</b>
-                                    <ul>
-                                        <li>From December 2016 to August 2020</li>
-                                        <li>Job description:
-                                            <ul>
-                                                <li>Conduct power transmission technology research</li>
-                                                <li>Design and development of power system disaster warning systems</li>
-                                                <li>Investigation and analysis of power system faults </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><b>Engineer</b>
-                                    <ul>
-                                        <li>From August 2013 to Dec 2016</li>
-                                        <li>Job description:
-                                            <ul>
-                                                <li>Conduct power transmission technology research</li>
-                                                <li>Substations and transmission lines commission and diagnosis tests</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li> */}
                             </ul>
                         </li>
 

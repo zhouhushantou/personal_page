@@ -3,7 +3,7 @@ const Paper = ({ paper }) => {
     const authorEmphasize = (name) => {
         const splitArray = name.split(";")
         return splitArray.map(author => {
-            if (author.includes("周象贤") || author.includes("Xiangxian") || author.includes("XX") || author.includes("Xiang-xian")) {
+            if (author.includes("周象贤") || author.includes("Xiangxian") || author.includes("XX") || author.includes("Xiang-xian") || author.includes("Steven")) {
                 return <b id="authorZhou">{author}</b>
             }
             return (
